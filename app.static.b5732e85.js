@@ -1337,12 +1337,12 @@ var Footer = function (_React$Component) {
                 _react2.default.createElement(
                   "a",
                   {
-                    href: "http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Fhttps%3A%2F%2Fblog.bakunyo.com%2F",
+                    href: "https://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Fhttps%3A%2F%2Fblog.bakunyo.com%2F",
                     target: "blank"
                   },
                   _react2.default.createElement("img", {
                     id: "feedlyFollow",
-                    src: "http://s3.feedly.com/img/follows/feedly-follow-rectangle-flat-big_2x.png",
+                    src: "https://s3.feedly.com/img/follows/feedly-follow-rectangle-flat-big_2x.png",
                     alt: "follow us in feedly",
                     width: "131",
                     height: "56"
@@ -1410,4 +1410,4 @@ module.exports = __webpack_require__.p + "static/bakunyo.f3080bd9.png";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.ef136399.js.map
+//# sourceMappingURL=app.static.b5732e85.js.map
