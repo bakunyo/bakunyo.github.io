@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.bakunyo.com/</id>
     <title>BAKUNOTE</title>
-    <updated>2018-01-14T13:23:29Z</updated>
+    <updated>2018-01-14T13:43:07Z</updated>
     <generator>Feed for Node.js</generator>
     <author>
         <name>Izuta Hiroyuki</name>
@@ -324,21 +324,21 @@ docker-machine version 0.12.0, build 45c69ad
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;br /&gt;
 &lt;p&gt;&lt;strong&gt;Gemfile&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs ruby&quot;&gt;source &lt;span class=&quot;hljs-string&quot;&gt;&#039;https://rubygems.org&#039;&lt;/span&gt;
-gem &lt;span class=&quot;hljs-string&quot;&gt;&#039;rails&#039;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&#039;5.0.0.1&#039;&lt;/span&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs ruby&quot;&gt;source &lt;span class=&quot;hljs-string&quot;&gt;&#39;https://rubygems.org&#39;&lt;/span&gt;
+gem &lt;span class=&quot;hljs-string&quot;&gt;&#39;rails&#39;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&#39;5.0.0.1&#39;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;br /&gt;
 &lt;p&gt;&lt;strong&gt;Gemfile.lock&lt;/strong&gt;&lt;br&gt;
 空でOK&lt;/p&gt;
 &lt;br /&gt;
 &lt;p&gt;&lt;strong&gt;docker-compose.yml&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs yml&quot;&gt;&lt;span class=&quot;hljs-attr&quot;&gt;version:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&#039;3&#039;&lt;/span&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs yml&quot;&gt;&lt;span class=&quot;hljs-attr&quot;&gt;version:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&#39;3&#39;&lt;/span&gt;
 &lt;span class=&quot;hljs-attr&quot;&gt;services:&lt;/span&gt;
 &lt;span class=&quot;hljs-attr&quot;&gt;  db:&lt;/span&gt;
 &lt;span class=&quot;hljs-attr&quot;&gt;    image:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;postgres&lt;/span&gt;
 &lt;span class=&quot;hljs-attr&quot;&gt;  web:&lt;/span&gt;
 &lt;span class=&quot;hljs-attr&quot;&gt;    build:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;hljs-attr&quot;&gt;    command:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;bundle&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;rails&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;hljs-bullet&quot;&gt;-p&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;3000&lt;/span&gt; &lt;span class=&quot;hljs-bullet&quot;&gt;-b&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&#039;0.0.0.0&#039;&lt;/span&gt;
+&lt;span class=&quot;hljs-attr&quot;&gt;    command:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;bundle&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;rails&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;hljs-bullet&quot;&gt;-p&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;3000&lt;/span&gt; &lt;span class=&quot;hljs-bullet&quot;&gt;-b&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&#39;0.0.0.0&#39;&lt;/span&gt;
 &lt;span class=&quot;hljs-attr&quot;&gt;    volumes:&lt;/span&gt;
 &lt;span class=&quot;hljs-bullet&quot;&gt;      -&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;.:/myapp&lt;/span&gt;
 &lt;span class=&quot;hljs-attr&quot;&gt;    ports:&lt;/span&gt;
@@ -754,9 +754,9 @@ JSはES2015で書けるようにしています。が、まだ特に書いては
 &lt;p&gt;Railsの開発で慣れている&lt;a href=&quot;http://slim-lang.com/&quot;&gt;Slim&lt;/a&gt;を採用しました。&lt;br&gt;
 &lt;code&gt;erb&lt;/code&gt;書いてる時に比べて精神状態が良好に保たれます。&lt;/p&gt;
 &lt;p&gt;微妙にハマったのが&lt;code&gt;partial&lt;/code&gt;の書き方で、&lt;a href=&quot;https://middlemanapp.com/jp/basics/upgrade-v4/&quot;&gt;v4 へのアップグレード&lt;/a&gt;にもあるように、&lt;code&gt;partials_dir&lt;/code&gt;の設定オプションが無くなっています。&lt;br&gt;
-部分テンプレートの指定は&lt;code&gt;source&lt;/code&gt;からの相対パスで&lt;code&gt;partial &#039;partials/my_partial&#039;&lt;/code&gt;のように書くことになります。&lt;/p&gt;
+部分テンプレートの指定は&lt;code&gt;source&lt;/code&gt;からの相対パスで&lt;code&gt;partial &#39;partials/my_partial&#39;&lt;/code&gt;のように書くことになります。&lt;/p&gt;
 &lt;p&gt;また、特に指定をしなければ&lt;code&gt;partials&lt;/code&gt;以下もビルド対象となってしまうので、ビルド対象外として設定すると良いです。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs ruby&quot;&gt;ignore &lt;span class=&quot;hljs-string&quot;&gt;&#039;partials/*&#039;&lt;/span&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs ruby&quot;&gt;ignore &lt;span class=&quot;hljs-string&quot;&gt;&#39;partials/*&#39;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;これは&lt;strong&gt;開発時に気づきにくい罠&lt;/strong&gt;でした。&lt;/p&gt;
 &lt;h3&gt;記事の移行&lt;/h3&gt;
@@ -776,7 +776,7 @@ activate &lt;span class=&quot;hljs-symbol&quot;&gt;:minify_html&lt;/span&gt;
 自分は&lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;で公開しているので、&lt;code&gt;master&lt;/code&gt;ブランチにPushして完了です。&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;hljs ruby&quot;&gt;activate &lt;span class=&quot;hljs-symbol&quot;&gt;:deploy&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;hljs-params&quot;&gt;|deploy|&lt;/span&gt;
   deploy.deploy_method = &lt;span class=&quot;hljs-symbol&quot;&gt;:git&lt;/span&gt;
-  deploy.branch = &lt;span class=&quot;hljs-string&quot;&gt;&#039;master&#039;&lt;/span&gt; &lt;span class=&quot;hljs-comment&quot;&gt;# default: gh-pages&lt;/span&gt;
+  deploy.branch = &lt;span class=&quot;hljs-string&quot;&gt;&#39;master&#39;&lt;/span&gt; &lt;span class=&quot;hljs-comment&quot;&gt;# default: gh-pages&lt;/span&gt;
   deploy.build_before = &lt;span class=&quot;hljs-literal&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;hljs-comment&quot;&gt;# default: false&lt;/span&gt;
 &lt;span class=&quot;hljs-keyword&quot;&gt;end&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -811,7 +811,7 @@ activate &lt;span class=&quot;hljs-symbol&quot;&gt;:minify_html&lt;/span&gt;
 &lt;pre&gt;&lt;code class=&quot;hljs &quot;&gt;# in spec/rails_helper.rb
 
 RSpecRake.configure do |config|
-  config.require_tasks(File.join(Rails.root, &#039;lib&#039;, &#039;tasks&#039;))
+  config.require_tasks(File.join(Rails.root, &#39;lib&#39;, &#39;tasks&#39;))
   config.auto_reenable = true
 end
 &lt;/code&gt;&lt;/pre&gt;
@@ -830,7 +830,7 @@ end
 &lt;h1&gt;specファイル内でのタスク実行方法&lt;/h1&gt;
 &lt;p&gt;上記の設定ができていれば、specファイル内では&lt;code&gt;Rake::Task&lt;/code&gt;から対象のタスクを呼ぶだけでOKです。&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;hljs &quot;&gt;# before, it, afterなどどこでも
-Rake::Task[&#039;some:task&#039;].invoke
+Rake::Task[&#39;some:task&#39;].invoke
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;各specファイルではRakeの定義などは要らないし、どのタスクでも呼べるので結構楽に書けると思います。&lt;/p&gt;
 &lt;h1&gt;懸念点&lt;/h1&gt;
@@ -860,7 +860,7 @@ Gitの差分をvimで開けて、行単位でStageしたりCommitできる。&lt
 &lt;p&gt;ちなみにEmacsプラグインの&lt;a href=&quot;https://github.com/magit/magit&quot;&gt;magit&lt;/a&gt;ってやつのコピー版らしい。&lt;br&gt;
 インストール〜使い方、オススメ設定まで記載しておく。&lt;/p&gt;
 &lt;h1&gt;インストール&lt;/h1&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs vim&quot;&gt;NeoBundle &lt;span class=&quot;hljs-string&quot;&gt;&#039;jreybert/vimagit&#039;&lt;/span&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs vim&quot;&gt;NeoBundle &lt;span class=&quot;hljs-string&quot;&gt;&#39;jreybert/vimagit&#39;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h1&gt;使い方&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/jreybert/vimagit&quot;&gt;GitHubのリポジトリ&lt;/a&gt;にリンクされてる&lt;a href=&quot;https://asciinema.org/a/28761&quot;&gt;ビデオ&lt;/a&gt;とかを見るとざっくりイメージできると思う。&lt;/p&gt;
@@ -959,7 +959,7 @@ Gitの差分をvimで開けて、行単位でStageしたりCommitできる。&lt
 &lt;tr&gt;
 &lt;td style=&quot;text-align:left&quot;&gt;g:magit_default_sections&lt;/td&gt;
 &lt;td style=&quot;text-align:left&quot;&gt;各セクションの表示/非表示と順番&lt;/td&gt;
-&lt;td style=&quot;text-align:left&quot;&gt;[&#039;info&#039;, &#039;global_help&#039;, &#039;commit&#039;, &#039;staged&#039;, &#039;unstaged&#039;]&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;[&#39;info&#39;, &#39;global_help&#39;, &#39;commit&#39;, &#39;staged&#39;, &#39;unstaged&#39;]&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&quot;text-align:left&quot;&gt;g:magit_warning_max_lines&lt;/td&gt;
@@ -973,7 +973,7 @@ Gitの差分をvimで開けて、行単位でStageしたりCommitできる。&lt
 &lt;pre&gt;&lt;code class=&quot;hljs vim&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;hljs-variable&quot;&gt;g:magit_show_help&lt;/span&gt; = &lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;  &lt;span class=&quot;hljs-comment&quot;&gt;&quot; 少し慣れたらいらなくなる&lt;/span&gt;
 &lt;span class=&quot;hljs-keyword&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;hljs-variable&quot;&gt;g:magit_default_show_all_files&lt;/span&gt; = &lt;span class=&quot;hljs-number&quot;&gt;2&lt;/span&gt;  &lt;span class=&quot;hljs-comment&quot;&gt;&quot; わざわざ開くのは面倒なので&lt;/span&gt;
 &lt;span class=&quot;hljs-keyword&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;hljs-variable&quot;&gt;g:magit_default_fold_level&lt;/span&gt; = &lt;span class=&quot;hljs-number&quot;&gt;2&lt;/span&gt;  &lt;span class=&quot;hljs-comment&quot;&gt;&quot; 同上&lt;/span&gt;
-&lt;span class=&quot;hljs-keyword&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;hljs-variable&quot;&gt;g:magit_default_sections&lt;/span&gt; = [&lt;span class=&quot;hljs-string&quot;&gt;&#039;global_help&#039;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&#039;info&#039;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&#039;unstaged&#039;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&#039;staged&#039;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&#039;commit&#039;&lt;/span&gt;]  &lt;span class=&quot;hljs-comment&quot;&gt;&quot; helpはデフォルト非表示。次にcurrent情報。それ以下は上から順に処理していくイメージ&lt;/span&gt;
+&lt;span class=&quot;hljs-keyword&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;hljs-variable&quot;&gt;g:magit_default_sections&lt;/span&gt; = [&lt;span class=&quot;hljs-string&quot;&gt;&#39;global_help&#39;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&#39;info&#39;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&#39;unstaged&#39;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&#39;staged&#39;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&#39;commit&#39;&lt;/span&gt;]  &lt;span class=&quot;hljs-comment&quot;&gt;&quot; helpはデフォルト非表示。次にcurrent情報。それ以下は上から順に処理していくイメージ&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;最初のcommitが2015年9月。 READMEにもあるようにまだまだ機能追加されそう。&lt;/p&gt;
 &lt;p&gt;VimでGitといえば&lt;a href=&quot;https://github.com/tpope/vim-fugitive&quot;&gt;fugitive&lt;/a&gt;だと思うけど、それには無いものをいっぱい持ってるし、併用もアリだと思う！&lt;/p&gt;
@@ -993,9 +993,9 @@ Gitの差分をvimで開けて、行単位でStageしたりCommitできる。&lt
         <content type="html"><![CDATA[&lt;p&gt;今までマージ済ブランチを消す時、&lt;code&gt;git branch --merged&lt;/code&gt;してから1個1個&lt;code&gt;git branch -d xxxx&lt;/code&gt;とか面倒くさいことしてたので、マージ済ブランチを表示して確認後にyesと打てばまとめて消せるようにした。&lt;br&gt;
 但し、originとdevelopは消さないようにしてる。&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;hljs bash&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;function&lt;/span&gt; git-delete-&lt;span class=&quot;hljs-function&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;merged&lt;/span&gt;&lt;/span&gt;() {
-  merged=`git branch --merged | egrep -v &lt;span class=&quot;hljs-string&quot;&gt;&#039;\*|develop|master&#039;&lt;/span&gt;`
+  merged=`git branch --merged | egrep -v &lt;span class=&quot;hljs-string&quot;&gt;&#39;\*|develop|master&#39;&lt;/span&gt;`
   &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; [[ &lt;span class=&quot;hljs-variable&quot;&gt;$merged&lt;/span&gt; = &lt;span class=&quot;hljs-string&quot;&gt;&quot;&quot;&lt;/span&gt; ]]; &lt;span class=&quot;hljs-keyword&quot;&gt;then&lt;/span&gt;
-    &lt;span class=&quot;hljs-built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&#039;No merged branch.&#039;&lt;/span&gt;
+    &lt;span class=&quot;hljs-built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&#39;No merged branch.&#39;&lt;/span&gt;
     &lt;span class=&quot;hljs-built_in&quot;&gt;return&lt;/span&gt; 0
   &lt;span class=&quot;hljs-keyword&quot;&gt;fi&lt;/span&gt;
 
@@ -1005,41 +1005,41 @@ Gitの差分をvimで開けて、行単位でStageしたりCommitできる。&lt
   &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; [[ &lt;span class=&quot;hljs-variable&quot;&gt;$ans&lt;/span&gt; =~ ^y(es)?$ ]]; &lt;span class=&quot;hljs-keyword&quot;&gt;then&lt;/span&gt;
     &lt;span class=&quot;hljs-built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;&lt;span class=&quot;hljs-variable&quot;&gt;$merged&lt;/span&gt;&quot;&lt;/span&gt; | xargs git branch -d
   &lt;span class=&quot;hljs-keyword&quot;&gt;else&lt;/span&gt;
-    &lt;span class=&quot;hljs-built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&#039;Cancelled.&#039;&lt;/span&gt;
+    &lt;span class=&quot;hljs-built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&#39;Cancelled.&#39;&lt;/span&gt;
   &lt;span class=&quot;hljs-keyword&quot;&gt;fi&lt;/span&gt;
 }
 
-&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gdm=&lt;span class=&quot;hljs-string&quot;&gt;&#039;git-delete-merged&#039;&lt;/span&gt;
+&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gdm=&lt;span class=&quot;hljs-string&quot;&gt;&#39;git-delete-merged&#39;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h4&gt;参考&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&quot;http://qiita.com/hajimeni/items/73d2155fc59e152630c4&quot;&gt;Gitでマージ済みブランチを一括削除&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;ついでに&lt;/h1&gt;
 &lt;p&gt;今までGitのサブコマンドは&lt;code&gt;gitconfig&lt;/code&gt;のaliasに定義してたけど、&lt;code&gt;git xx&lt;/code&gt;って打つのもちょっと手間なのでalias整理した！&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs bash&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; ga=&lt;span class=&quot;hljs-string&quot;&gt;&#039;git add&#039;&lt;/span&gt;
-&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gap=&lt;span class=&quot;hljs-string&quot;&gt;&#039;git add -p&#039;&lt;/span&gt;
-&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gb=&lt;span class=&quot;hljs-string&quot;&gt;&#039;git branch&#039;&lt;/span&gt;
-&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gcm=&lt;span class=&quot;hljs-string&quot;&gt;&#039;git commit -v&#039;&lt;/span&gt;
-&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gca=&lt;span class=&quot;hljs-string&quot;&gt;&#039;git commit --amend&#039;&lt;/span&gt;
-&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gco=&lt;span class=&quot;hljs-string&quot;&gt;&#039;git checkout&#039;&lt;/span&gt;
-&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gcof=&lt;span class=&quot;hljs-string&quot;&gt;&#039;git-checkout-force&#039;&lt;/span&gt;
-&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gcp=&lt;span class=&quot;hljs-string&quot;&gt;&#039;git cherry-pick&#039;&lt;/span&gt;
-&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gd=&lt;span class=&quot;hljs-string&quot;&gt;&#039;git diff&#039;&lt;/span&gt;
-&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gdm=&lt;span class=&quot;hljs-string&quot;&gt;&#039;git-delete-merged&#039;&lt;/span&gt;
-&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gl=&lt;span class=&quot;hljs-string&quot;&gt;&quot;git log --pretty=&#039;%h %ci %s %cn&#039;&quot;&lt;/span&gt;
-&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gpl=&lt;span class=&quot;hljs-string&quot;&gt;&#039;git pull&#039;&lt;/span&gt;
-&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; grb=&lt;span class=&quot;hljs-string&quot;&gt;&#039;git rabase&#039;&lt;/span&gt;
-&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; grbi=&lt;span class=&quot;hljs-string&quot;&gt;&#039;git rabse -i&#039;&lt;/span&gt;
-&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; grba=&lt;span class=&quot;hljs-string&quot;&gt;&#039;git rabse --abort&#039;&lt;/span&gt;
-&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; grbc=&lt;span class=&quot;hljs-string&quot;&gt;&#039;git rabse --continue&#039;&lt;/span&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs bash&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; ga=&lt;span class=&quot;hljs-string&quot;&gt;&#39;git add&#39;&lt;/span&gt;
+&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gap=&lt;span class=&quot;hljs-string&quot;&gt;&#39;git add -p&#39;&lt;/span&gt;
+&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gb=&lt;span class=&quot;hljs-string&quot;&gt;&#39;git branch&#39;&lt;/span&gt;
+&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gcm=&lt;span class=&quot;hljs-string&quot;&gt;&#39;git commit -v&#39;&lt;/span&gt;
+&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gca=&lt;span class=&quot;hljs-string&quot;&gt;&#39;git commit --amend&#39;&lt;/span&gt;
+&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gco=&lt;span class=&quot;hljs-string&quot;&gt;&#39;git checkout&#39;&lt;/span&gt;
+&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gcof=&lt;span class=&quot;hljs-string&quot;&gt;&#39;git-checkout-force&#39;&lt;/span&gt;
+&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gcp=&lt;span class=&quot;hljs-string&quot;&gt;&#39;git cherry-pick&#39;&lt;/span&gt;
+&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gd=&lt;span class=&quot;hljs-string&quot;&gt;&#39;git diff&#39;&lt;/span&gt;
+&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gdm=&lt;span class=&quot;hljs-string&quot;&gt;&#39;git-delete-merged&#39;&lt;/span&gt;
+&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gl=&lt;span class=&quot;hljs-string&quot;&gt;&quot;git log --pretty=&#39;%h %ci %s %cn&#39;&quot;&lt;/span&gt;
+&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gpl=&lt;span class=&quot;hljs-string&quot;&gt;&#39;git pull&#39;&lt;/span&gt;
+&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; grb=&lt;span class=&quot;hljs-string&quot;&gt;&#39;git rabase&#39;&lt;/span&gt;
+&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; grbi=&lt;span class=&quot;hljs-string&quot;&gt;&#39;git rabse -i&#39;&lt;/span&gt;
+&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; grba=&lt;span class=&quot;hljs-string&quot;&gt;&#39;git rabse --abort&#39;&lt;/span&gt;
+&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; grbc=&lt;span class=&quot;hljs-string&quot;&gt;&#39;git rabse --continue&#39;&lt;/span&gt;
 &lt;span class=&quot;hljs-keyword&quot;&gt;for&lt;/span&gt; n &lt;span class=&quot;hljs-keyword&quot;&gt;in&lt;/span&gt; $(seq 10); &lt;span class=&quot;hljs-keyword&quot;&gt;do&lt;/span&gt;
   &lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; grbi&lt;span class=&quot;hljs-variable&quot;&gt;$n&lt;/span&gt;=&lt;span class=&quot;hljs-string&quot;&gt;&quot;git rebase -i HEAD~&lt;span class=&quot;hljs-variable&quot;&gt;$n&lt;/span&gt;&quot;&lt;/span&gt;
 &lt;span class=&quot;hljs-keyword&quot;&gt;done&lt;/span&gt;
-&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; grs=&lt;span class=&quot;hljs-string&quot;&gt;&#039;git reset&#039;&lt;/span&gt;
+&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; grs=&lt;span class=&quot;hljs-string&quot;&gt;&#39;git reset&#39;&lt;/span&gt;
 &lt;span class=&quot;hljs-keyword&quot;&gt;for&lt;/span&gt; n &lt;span class=&quot;hljs-keyword&quot;&gt;in&lt;/span&gt; $(seq 10); &lt;span class=&quot;hljs-keyword&quot;&gt;do&lt;/span&gt;
   &lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; grs&lt;span class=&quot;hljs-variable&quot;&gt;$n&lt;/span&gt;=&lt;span class=&quot;hljs-string&quot;&gt;&quot;git reset HEAD~&lt;span class=&quot;hljs-variable&quot;&gt;$n&lt;/span&gt;&quot;&lt;/span&gt;
 &lt;span class=&quot;hljs-keyword&quot;&gt;done&lt;/span&gt;
-&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gs=&lt;span class=&quot;hljs-string&quot;&gt;&#039;git status&#039;&lt;/span&gt;
-&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gps=&lt;span class=&quot;hljs-string&quot;&gt;&#039;git push&#039;&lt;/span&gt;
+&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gs=&lt;span class=&quot;hljs-string&quot;&gt;&#39;git status&#39;&lt;/span&gt;
+&lt;span class=&quot;hljs-built_in&quot;&gt;alias&lt;/span&gt; gps=&lt;span class=&quot;hljs-string&quot;&gt;&#39;git push&#39;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;まだ慣れてなくてすぐ&lt;code&gt;git&lt;/code&gt;って打っちゃうので、早く身体に覚えさせたい。&lt;/p&gt;
 &lt;h4&gt;参考&lt;/h4&gt;
@@ -1060,7 +1060,7 @@ Gitの差分をvimで開けて、行単位でStageしたりCommitできる。&lt
         <content type="html"><![CDATA[&lt;p&gt;約1年位Vimでnerdtreeを使ってきたんだけど、そろそろ別のも使ってみたいと思ったので&lt;strong&gt;ctrlp&lt;/strong&gt;を試してみることにする。&lt;/p&gt;
 &lt;p&gt;ちなみにnerdtreeはディレクトリのツリーが常に表示されてる分、幅が狭くて辛い時があった。&lt;/p&gt;
 &lt;h1&gt;インストール&lt;/h1&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs vim&quot;&gt;NeoBundle &lt;span class=&quot;hljs-string&quot;&gt;&#039;ctrlpvim/ctrlp.vim&#039;&lt;/span&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs vim&quot;&gt;NeoBundle &lt;span class=&quot;hljs-string&quot;&gt;&#39;ctrlpvim/ctrlp.vim&#39;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h1&gt;起動&lt;/h1&gt;
 &lt;p&gt;&lt;code&gt;&amp;lt;c-p&amp;gt;&lt;/code&gt;&lt;/p&gt;
@@ -1129,11 +1129,11 @@ Gitの差分をvimで開けて、行単位でStageしたりCommitできる。&lt
 &lt;pre&gt;&lt;code class=&quot;hljs bash&quot;&gt;brew install ag
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;ag.vimの設定&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs vim&quot;&gt;NeoBundle &lt;span class=&quot;hljs-string&quot;&gt;&#039;rking/ag.vim&#039;&lt;/span&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs vim&quot;&gt;NeoBundle &lt;span class=&quot;hljs-string&quot;&gt;&#39;rking/ag.vim&#39;&lt;/span&gt;
 
-&lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;hljs-built_in&quot;&gt;executable&lt;/span&gt;(&lt;span class=&quot;hljs-string&quot;&gt;&#039;ag&#039;&lt;/span&gt;)
+&lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;hljs-built_in&quot;&gt;executable&lt;/span&gt;(&lt;span class=&quot;hljs-string&quot;&gt;&#39;ag&#39;&lt;/span&gt;)
   &lt;span class=&quot;hljs-keyword&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;hljs-variable&quot;&gt;g:ctrlp_use_caching&lt;/span&gt;=&lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;
-  &lt;span class=&quot;hljs-keyword&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;hljs-variable&quot;&gt;g:ctrlp_user_command&lt;/span&gt;=&lt;span class=&quot;hljs-string&quot;&gt;&#039;ag %s -i --nocolor --nogroup -g &quot;&quot;&#039;&lt;/span&gt;
+  &lt;span class=&quot;hljs-keyword&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;hljs-variable&quot;&gt;g:ctrlp_user_command&lt;/span&gt;=&lt;span class=&quot;hljs-string&quot;&gt;&#39;ag %s -i --nocolor --nogroup -g &quot;&quot;&#39;&lt;/span&gt;
 &lt;span class=&quot;hljs-keyword&quot;&gt;endif&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;はやい。&lt;/p&gt;
@@ -1160,13 +1160,13 @@ Gitの差分をvimで開けて、行単位でStageしたりCommitできる。&lt
 &lt;p&gt;&lt;a href=&quot;https://github.com/railsware/global&quot;&gt;https://github.com/railsware/global&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;導入手順(Railsの場合)&lt;/h2&gt;
 &lt;h3&gt;1.Gemfileに追加&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs ruby&quot;&gt;gem &lt;span class=&quot;hljs-string&quot;&gt;&#039;global&#039;&lt;/span&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs ruby&quot;&gt;gem &lt;span class=&quot;hljs-string&quot;&gt;&#39;global&#39;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3&gt;2.initiallizersに追加&lt;/h3&gt;
 &lt;p&gt;config/initializers/global.rb&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;hljs ruby&quot;&gt;Global.configure &lt;span class=&quot;hljs-keyword&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;hljs-params&quot;&gt;|config|&lt;/span&gt;
   config.environment = Rails.env.to_s
-  config.config_directory = Rails.root.join(&lt;span class=&quot;hljs-string&quot;&gt;&#039;config/global&#039;&lt;/span&gt;).to_s
+  config.config_directory = Rails.root.join(&lt;span class=&quot;hljs-string&quot;&gt;&#39;config/global&#39;&lt;/span&gt;).to_s
 &lt;span class=&quot;hljs-keyword&quot;&gt;end&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;ここまでやれば、&lt;code&gt;config/global/xxxx.yml&lt;/code&gt;にファイルを置くと設定値を読んでくれる&lt;/p&gt;
@@ -1597,14 +1597,14 @@ Some files were not added to the queue:
 &lt;pre class=&quot;code&quot; data-unlink=&quot;&quot;&gt;
 ...
   uploadQueue        : [], // The files currently to be uploaded
-  errorMsg           : &#039;Some files were not added to the queue:&#039;
+  errorMsg           : &#39;Some files were not added to the queue:&#39;
 };
 ...
 &lt;/pre&gt;
 &lt;pre class=&quot;code&quot; data-unlink=&quot;&quot;&gt;
 ...
   // Reset some queue info
-  this.queueData.errorMsg       = &#039;Some files were not added to the queue:&#039;;
+  this.queueData.errorMsg       = &#39;Some files were not added to the queue:&#39;;
   this.queueData.filesReplaced  = 0;
 ...
 &lt;/pre&gt;
@@ -1934,7 +1934,7 @@ Matzさんのビデオ講義もあり、楽しく学習できます。&lt;br&gt;
 &lt;p&gt;ここまで簡潔に書けるんですね…（感動）&lt;br&gt;
 ただ、上記を実行してみるとエラーが発生。&lt;/p&gt;
 &lt;pre class=&quot;code&quot; data-unlink=&quot;&quot;&gt;
-minitk.rb:49:in `block in clever_print&#039;: undefined method `to_a&#039; for &quot;the&quot;:String (NoMethodError)
+minitk.rb:49:in `block in clever_print&#39;: undefined method `to_a&#39; for &quot;the&quot;:String (NoMethodError)
 &lt;/pre&gt;
 &lt;p&gt;なるほど調べてみると、&lt;strong&gt;&lt;span style=&quot;color: #ff0000&quot;&gt;String&lt;/span&gt;&lt;strong&gt;クラスの&lt;/strong&gt;&lt;span style=&quot;color: #ff0000&quot;&gt;to_a&lt;/span&gt;&lt;strong&gt;メソッドは無くなってしまったようですね(たぶん1.9以降で)。&lt;br&gt;
 という事で、型を判別して&lt;/strong&gt;String&lt;/strong&gt;の場合はそのまま配列にpushすることにしました。&lt;/p&gt;
@@ -2343,7 +2343,7 @@ gem list GEMNAME -d
 &lt;/table&gt;
 &lt;h5&gt;デフォルトで指定されているオプション&lt;/h5&gt;
 &lt;pre class=&quot;code&quot; data-unlink=&quot;&quot;&gt;
---both --version &#039;&gt;= 0&#039; --rdoc --ri --no-force
+--both --version &#39;&gt;= 0&#39; --rdoc --ri --no-force
 --install-dir /my/gems/directory
 &lt;/pre&gt;
 &lt;p&gt;個人的に使ったことが無いですが、ローカルからインストールする時は、&lt;code&gt;.gem&lt;/code&gt;ファイルのある場所に移動してからコマンドを実行するみたいです。&lt;/p&gt;
@@ -2464,7 +2464,7 @@ gem list GEMNAME -d
 ちょっとした空き時間につい見てしまいます。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.commandlinefu.com/commands/browse&quot;&gt;&lt;img src=&quot;http://capture.heartrails.com/150x130/shadow?http://www.commandlinefu.com/commands/browse&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.commandlinefu.com/commands/browse&quot;&gt;All commands | commandlinefu.com&lt;/a&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/http://www.commandlinefu.com/commands/browse&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/http://www.commandlinefu.com/commands/browse&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;特に&lt;a href=&quot;http://d.hatena.ne.jp/keyword/Ruby&quot;&gt;Ruby&lt;/a&gt;１ライナーとか勉強がてら見てます。例えば、&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;ruby -rdate -e &#039;puts DateTime.now&#039;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ruby -rdate -e &#39;puts DateTime.now&#39;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;で現在時刻を表示できる。&lt;br&gt;
 &lt;code&gt;-rlibrary&lt;/code&gt;でライブラリをrequireすることができるんですね〜！&lt;/p&gt;
 ]]></content>
@@ -2586,11 +2586,11 @@ config/environments/development.rb
 config.action_mailer.delivery_method = :smtp
 config.action_mailer.raise_delivery_errors = true 
 config.action_mailer.smtp_settings = {
-  :address =&gt; &#039;smtp.gmail.com&#039;,
+  :address =&gt; &#39;smtp.gmail.com&#39;,
   :port =&gt; 587,
   :authentication =&gt; :login,
-  :user_name =&gt; &#039;username&#039;, # ユーザー名
-  :password =&gt; &#039;password&#039; # パスワード
+  :user_name =&gt; &#39;username&#39;, # ユーザー名
+  :password =&gt; &#39;password&#39; # パスワード
 }
 &lt;/pre&gt;
 &lt;h3&gt;2.Mailerを生成&lt;/h3&gt;
@@ -2616,7 +2616,7 @@ class TestMailer &lt; ActionMailer::Base
     @greeting = &quot;Hi&quot;
 
     mail(:to =&gt; &quot;xxxxxx@gmail.com&quot;,
-   :subject =&gt; &#039;テスト送信&#039;)
+   :subject =&gt; &#39;テスト送信&#39;)
   end
 end
 &lt;/pre&gt;
@@ -2636,7 +2636,7 @@ app/controllers/hoge_controller.rb
 
 def mail_send
   @mail = TestMailer.sendmail.deliver
-  render :text =&gt; &#039;メール送信完了&#039;
+  render :text =&gt; &#39;メール送信完了&#39;
 end
 &lt;/pre&gt;
 &lt;p&gt;&lt;a href=&quot;http://d.hatena.ne.jp/keyword/sendmail&quot;&gt;sendmail&lt;/a&gt;メソッドはMail::Messageオブジェクトを返すだけなので、deliverメソッドを呼び出す必要があることに注意です。&lt;/p&gt;
@@ -2672,14 +2672,14 @@ app/views/layouts/application.html.erb
 app/assets/stylesheets/application.css
 
 　/*
- * This is a manifest file that&#039;ll be compiled into application.css, which will include all the files
+ * This is a manifest file that&#39;ll be compiled into application.css, which will include all the files
  * listed below.
  *
  * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
  * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
  *
- * You&#039;re free to add application-wide styles to this file and they&#039;ll appear at the top of the
- * compiled file, but it&#039;s generally better to create a new file per style scope.
+ * You&#39;re free to add application-wide styles to this file and they&#39;ll appear at the top of the
+ * compiled file, but it&#39;s generally better to create a new file per style scope.
  *
  *= require_self
  *= require_tree .
@@ -2738,7 +2738,7 @@ app/assets/stylesheets/application.css
 &lt;p&gt;Email&lt;a href=&quot;http://d.hatena.ne.jp/keyword/%A5%B3%A5%F3%A5%DD%A1%BC%A5%CD%A5%F3%A5%C8&quot;&gt;コンポーネント&lt;/a&gt;を使用して、テンプレートを使用せずにシンプルなテキストでメールを送信したら文字化けが発生。&lt;/p&gt;
 &lt;h3&gt;[対処]&lt;/h3&gt;
 &lt;p&gt;まずは&lt;a href=&quot;http://d.hatena.ne.jp/keyword/%CA%B8%BB%FA%A5%B3%A1%BC%A5%C9&quot;&gt;文字コード&lt;/a&gt;のセットを&lt;a href=&quot;http://d.hatena.ne.jp/keyword/UTF-8&quot;&gt;UTF-8&lt;/a&gt;に設定。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;$this-&amp;gt;Email-&amp;gt;charset = &#039;utf-8&#039;;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$this-&amp;gt;Email-&amp;gt;charset = &#39;utf-8&#39;;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;これでも、一部直らない部分がある。&lt;/p&gt;
 &lt;p&gt;どうやら、1行の文字数が長い時に自動改行され、そこで文字化けが発生するらしい。&lt;/p&gt;
 &lt;p&gt;自動改行されない位に1行の文字数をそもそも長くしておく。&lt;/p&gt;
