@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.bakunyo.com/</id>
     <title>BAKUNOTE</title>
-    <updated>2018-01-14T13:45:02Z</updated>
+    <updated>2018-01-14T13:48:03Z</updated>
     <generator>Feed for Node.js</generator>
     <author>
         <name>Izuta Hiroyuki</name>
@@ -21,6 +21,7 @@
         <link href="https://blog.bakunyo.com/2017/12/17/amazon-vpc/">
         </link>
         <updated>2017-12-17T04:30:00Z</updated>
+        <content type="html"><![CDATA[Amazpn VPCで踏み台経由でログインできるネットワーク環境をつくってみる]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -33,6 +34,7 @@
         <link href="https://blog.bakunyo.com/2017/07/06/docker-compose-rails/">
         </link>
         <updated>2017-07-05T15:09:00Z</updated>
+        <content type="html"><![CDATA[Rails開発環境をdocker-composeで作ってみる]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -45,6 +47,7 @@
         <link href="https://blog.bakunyo.com/2017/05/27/elixir-introduction/">
         </link>
         <updated>2017-05-27T08:01:00Z</updated>
+        <content type="html"><![CDATA[Elixir入門]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -57,6 +60,7 @@
         <link href="https://blog.bakunyo.com/2017/02/14/kamakura-kaihatsu-gassyuku/">
         </link>
         <updated>2017-02-14T12:40:00Z</updated>
+        <content type="html"><![CDATA[鎌倉で開発合宿してきた]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -69,6 +73,7 @@
         <link href="https://blog.bakunyo.com/2016/12/30/devise-friendly-forwarding/">
         </link>
         <updated>2016-12-30T07:34:00Z</updated>
+        <content type="html"><![CDATA[Deviseでフレンドリーフォワーディングを実装する]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -81,6 +86,7 @@
         <link href="https://blog.bakunyo.com/2016/10/27/rorororor/">
         </link>
         <updated>2016-10-27T14:30:00Z</updated>
+        <content type="html"><![CDATA[React on Redux on Relay on Ruby on Rails]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -93,6 +99,7 @@
         <link href="https://blog.bakunyo.com/2016/09/20/jekyll_to_middleman/">
         </link>
         <updated>2016-09-20T12:15:00Z</updated>
+        <content type="html"><![CDATA[Jekyll -> Middleman-blogに移行しました]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -105,6 +112,7 @@
         <link href="https://blog.bakunyo.com/2016/05/06/rake_rspec/">
         </link>
         <updated>2016-05-05T15:00:00Z</updated>
+        <content type="html"><![CDATA[rspec_rake っていうGemをつくってみた]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -117,6 +125,7 @@
         <link href="https://blog.bakunyo.com/2016/01/08/vimagit/">
         </link>
         <updated>2016-01-07T15:00:00Z</updated>
+        <content type="html"><![CDATA[vimでgitするにはvimagitがおすすめ]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -129,6 +138,7 @@
         <link href="https://blog.bakunyo.com/2015/12/27/git-delete-merged/">
         </link>
         <updated>2015-12-27T00:00:00Z</updated>
+        <content type="html"><![CDATA[マージ済ブランチを消すコマンドをつくった]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -141,6 +151,7 @@
         <link href="https://blog.bakunyo.com/2015/11/08/ctrlp/">
         </link>
         <updated>2015-11-08T14:15:00Z</updated>
+        <content type="html"><![CDATA[ctrlp.vimを試してみる]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -153,6 +164,7 @@
         <link href="https://blog.bakunyo.com/2015/05/04/rubygem_global/">
         </link>
         <updated>2015-05-04T07:32:00Z</updated>
+        <content type="html"><![CDATA[Global変数を管理するGem 'global']]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -165,6 +177,7 @@
         <link href="https://blog.bakunyo.com/2015/05/01/ruby-define-const-in-method/">
         </link>
         <updated>2015-05-01T08:08:00Z</updated>
+        <content type="html"><![CDATA[定数のメソッド内定義]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -177,6 +190,7 @@
         <link href="https://blog.bakunyo.com/2014/02/16/windows_alias/">
         </link>
         <updated>2014-02-16T00:00:00Z</updated>
+        <content type="html"><![CDATA[Windowsコマンドプロンプトでaliasを使いたい]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -189,6 +203,7 @@
         <link href="https://blog.bakunyo.com/2014/01/30/sublime_indent/">
         </link>
         <updated>2014-01-30T00:00:00Z</updated>
+        <content type="html"><![CDATA[Sublimeでインデントを整形する]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -201,6 +216,7 @@
         <link href="https://blog.bakunyo.com/2013/12/18/ruby_gold/">
         </link>
         <updated>2013-12-18T00:00:00Z</updated>
+        <content type="html"><![CDATA[Ruby認定技術者のGoldに受かったので報告]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -213,6 +229,7 @@
         <link href="https://blog.bakunyo.com/2013/11/25/user_define_method/">
         </link>
         <updated>2013-11-25T00:00:00Z</updated>
+        <content type="html"><![CDATA[ユーザ定義クラスの==メソッド]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -225,6 +242,7 @@
         <link href="https://blog.bakunyo.com/2013/10/25/return_value_of_method_and_block/">
         </link>
         <updated>2013-10-25T00:00:00Z</updated>
+        <content type="html"><![CDATA[メソッドとブロックの戻り値]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -237,6 +255,7 @@
         <link href="https://blog.bakunyo.com/2013/10/23/floor_and_truncate/">
         </link>
         <updated>2013-10-23T00:00:00Z</updated>
+        <content type="html"><![CDATA[(Ruby)floorとtruncateの違い]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -249,6 +268,7 @@
         <link href="https://blog.bakunyo.com/2013/09/04/windows_files/">
         </link>
         <updated>2013-09-04T00:00:00Z</updated>
+        <content type="html"><![CDATA[Windowsでファイル名の一覧を取得する]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -261,6 +281,7 @@
         <link href="https://blog.bakunyo.com/2013/08/27/uploadify/">
         </link>
         <updated>2013-08-27T00:00:00Z</updated>
+        <content type="html"><![CDATA[複数ファイルのuploadができる「Uploadify」を使ってみた]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -273,6 +294,7 @@
         <link href="https://blog.bakunyo.com/2013/08/26/undef_class_method/">
         </link>
         <updated>2013-08-26T00:00:00Z</updated>
+        <content type="html"><![CDATA[クラスメソッドをundefする]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -285,6 +307,7 @@
         <link href="https://blog.bakunyo.com/2013/07/20/install_sublime3/">
         </link>
         <updated>2013-07-20T00:00:00Z</updated>
+        <content type="html"><![CDATA[Sublime Text 3をインストールしてみた]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -297,6 +320,7 @@
         <link href="https://blog.bakunyo.com/2013/07/11/ruby_silver/">
         </link>
         <updated>2013-07-11T00:00:00Z</updated>
+        <content type="html"><![CDATA[Ruby認定技術者のSilverに受かったので諸々の報告]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -309,6 +333,7 @@
         <link href="https://blog.bakunyo.com/2013/06/27/minitsuku2/">
         </link>
         <updated>2013-06-27T00:00:00Z</updated>
+        <content type="html"><![CDATA[ミニツクの演習2を解いてみた。]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -321,6 +346,7 @@
         <link href="https://blog.bakunyo.com/2013/06/25/regex_options/">
         </link>
         <updated>2013-06-25T00:00:00Z</updated>
+        <content type="html"><![CDATA[オプションの由来シリーズ - 正規表現]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -333,6 +359,7 @@
         <link href="https://blog.bakunyo.com/2013/06/20/crontab/">
         </link>
         <updated>2013-06-20T00:00:00Z</updated>
+        <content type="html"><![CDATA[crontab使い方まとめ。]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -345,6 +372,7 @@
         <link href="https://blog.bakunyo.com/2013/05/25/daily_report_git/">
         </link>
         <updated>2013-05-25T00:00:00Z</updated>
+        <content type="html"><![CDATA[git logで日報を書く]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -357,6 +385,7 @@
         <link href="https://blog.bakunyo.com/2013/05/23/gem_command/">
         </link>
         <updated>2013-05-23T00:00:00Z</updated>
+        <content type="html"><![CDATA[そろそろ整理しておきたい、Gemコマンドの使い方]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -369,6 +398,7 @@
         <link href="https://blog.bakunyo.com/2013/05/18/one_liners/">
         </link>
         <updated>2013-05-18T00:00:00Z</updated>
+        <content type="html"><![CDATA[1ライナーのコマンドを投稿するサイトが面白い]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -381,6 +411,7 @@
         <link href="https://blog.bakunyo.com/2013/05/16/css_position/">
         </link>
         <updated>2013-05-16T00:00:00Z</updated>
+        <content type="html"><![CDATA[CSSのPosition指定(absolute)でハマったポイント]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -393,6 +424,7 @@
         <link href="https://blog.bakunyo.com/2013/04/25/source_of_image_tag/">
         </link>
         <updated>2013-04-25T00:00:00Z</updated>
+        <content type="html"><![CDATA[image_tagでソース指定でハマった]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -405,6 +437,7 @@
         <link href="https://blog.bakunyo.com/2013/04/24/action_mailer/">
         </link>
         <updated>2013-04-24T00:00:00Z</updated>
+        <content type="html"><![CDATA[RailsのActionMailerを使いGmail経由でメール送信する]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -417,6 +450,7 @@
         <link href="https://blog.bakunyo.com/2013/04/20/css_in_rails/">
         </link>
         <updated>2013-04-20T00:00:00Z</updated>
+        <content type="html"><![CDATA[RailsはどこでCSSを指定するのか？]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -429,6 +463,7 @@
         <link href="https://blog.bakunyo.com/2013/04/15/order_of_select_sql/">
         </link>
         <updated>2013-04-15T00:00:00Z</updated>
+        <content type="html"><![CDATA[SQLでSELECTを書く時の順番]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -441,6 +476,7 @@
         <link href="https://blog.bakunyo.com/2013/04/03/cakephp_charcode/">
         </link>
         <updated>2013-04-03T00:00:00Z</updated>
+        <content type="html"><![CDATA[CakePHPでメールを送ったら文字化けした時の対処法。]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -453,6 +489,7 @@
         <link href="https://blog.bakunyo.com/2013/02/24/sublime_bracket_highlighter/">
         </link>
         <updated>2013-02-24T00:00:00Z</updated>
+        <content type="html"><![CDATA[Sublime Text 2のBracketHighlighterをちょこっとカスタマイズする]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -465,6 +502,7 @@
         <link href="https://blog.bakunyo.com/2013/02/21/archive_gmail/">
         </link>
         <updated>2013-02-21T00:00:00Z</updated>
+        <content type="html"><![CDATA[Gmailのアーカイブ機能と個人的によく使うショートカット]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -477,6 +515,7 @@
         <link href="https://blog.bakunyo.com/2013/01/31/linefeeds/">
         </link>
         <updated>2013-01-31T00:00:00Z</updated>
+        <content type="html"><![CDATA[改行コードを知る]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -489,6 +528,7 @@
         <link href="https://blog.bakunyo.com/2013/01/18/coffee_meeting/">
         </link>
         <updated>2013-01-18T00:00:00Z</updated>
+        <content type="html"><![CDATA[会社でコーヒーミーティング@KDDIウェブコミュニケーションズに参加してきました]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -501,6 +541,7 @@
         <link href="https://blog.bakunyo.com/2013/01/16/char_code/">
         </link>
         <updated>2013-01-16T00:00:00Z</updated>
+        <content type="html"><![CDATA[文字コードについての２つの概念]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -513,6 +554,7 @@
         <link href="https://blog.bakunyo.com/2013/01/09/learning_java/">
         </link>
         <updated>2013-01-09T00:00:00Z</updated>
+        <content type="html"><![CDATA[Javaエンジニア研修スタート]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
@@ -525,6 +567,7 @@
         <link href="https://blog.bakunyo.com/2013/01/06/rest_of_pocket/">
         </link>
         <updated>2013-01-06T00:00:00Z</updated>
+        <content type="html"><![CDATA[後で読むサービス「Pocket」の残り件数を確認する方法]]></content>
         <author>
             <name>Izuta Hiroyuki</name>
             <email>izuta.hiroyuki@gmail.com</email>
