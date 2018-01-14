@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.bakunyo.com/</id>
     <title>BAKUNOTE</title>
-    <updated>2018-01-14T21:03:13Z</updated>
+    <updated>2018-01-14T21:22:19Z</updated>
     <generator>Feed for Node.js</generator>
     <author>
         <name>bakunyo</name>
@@ -10,7 +10,6 @@
         <uri>https://github.com/bakunyo</uri>
     </author>
     <link rel="alternate" href="https://blog.bakunyo.com/"/>
-    <link rel="self" href="https://blog.bakunyo.com/atom"/>
     <subtitle>bakunyoの技術ノート。ruby, javascriptに関することやその他日々の記録です。</subtitle>
     <logo>https://blog.bakunyo.com/bakunyo.png</logo>
     <icon>https://blog.bakunyo.com/favicon.ico</icon>
@@ -399,175 +398,6 @@
         </link>
         <updated>2013-05-18T00:00:00Z</updated>
         <content type="html"><![CDATA[1ライナーのコマンドを投稿するサイトが面白い]]></content>
-        <author>
-            <name>bakunyo</name>
-            <email>izuta.hiroyuki@gmail.com</email>
-            <uri>https://github.com/bakunyo</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSSのPosition指定(absolute)でハマったポイント]]></title>
-        <id>https://blog.bakunyo.com/2013/05/16/css_position/</id>
-        <link href="https://blog.bakunyo.com/2013/05/16/css_position/">
-        </link>
-        <updated>2013-05-16T00:00:00Z</updated>
-        <content type="html"><![CDATA[CSSのPosition指定(absolute)でハマったポイント]]></content>
-        <author>
-            <name>bakunyo</name>
-            <email>izuta.hiroyuki@gmail.com</email>
-            <uri>https://github.com/bakunyo</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[image_tagでソース指定でハマった]]></title>
-        <id>https://blog.bakunyo.com/2013/04/25/source_of_image_tag/</id>
-        <link href="https://blog.bakunyo.com/2013/04/25/source_of_image_tag/">
-        </link>
-        <updated>2013-04-25T00:00:00Z</updated>
-        <content type="html"><![CDATA[image_tagでソース指定でハマった]]></content>
-        <author>
-            <name>bakunyo</name>
-            <email>izuta.hiroyuki@gmail.com</email>
-            <uri>https://github.com/bakunyo</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RailsのActionMailerを使いGmail経由でメール送信する]]></title>
-        <id>https://blog.bakunyo.com/2013/04/24/action_mailer/</id>
-        <link href="https://blog.bakunyo.com/2013/04/24/action_mailer/">
-        </link>
-        <updated>2013-04-24T00:00:00Z</updated>
-        <content type="html"><![CDATA[RailsのActionMailerを使いGmail経由でメール送信する]]></content>
-        <author>
-            <name>bakunyo</name>
-            <email>izuta.hiroyuki@gmail.com</email>
-            <uri>https://github.com/bakunyo</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RailsはどこでCSSを指定するのか？]]></title>
-        <id>https://blog.bakunyo.com/2013/04/20/css_in_rails/</id>
-        <link href="https://blog.bakunyo.com/2013/04/20/css_in_rails/">
-        </link>
-        <updated>2013-04-20T00:00:00Z</updated>
-        <content type="html"><![CDATA[RailsはどこでCSSを指定するのか？]]></content>
-        <author>
-            <name>bakunyo</name>
-            <email>izuta.hiroyuki@gmail.com</email>
-            <uri>https://github.com/bakunyo</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SQLでSELECTを書く時の順番]]></title>
-        <id>https://blog.bakunyo.com/2013/04/15/order_of_select_sql/</id>
-        <link href="https://blog.bakunyo.com/2013/04/15/order_of_select_sql/">
-        </link>
-        <updated>2013-04-15T00:00:00Z</updated>
-        <content type="html"><![CDATA[SQLでSELECTを書く時の順番]]></content>
-        <author>
-            <name>bakunyo</name>
-            <email>izuta.hiroyuki@gmail.com</email>
-            <uri>https://github.com/bakunyo</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CakePHPでメールを送ったら文字化けした時の対処法。]]></title>
-        <id>https://blog.bakunyo.com/2013/04/03/cakephp_charcode/</id>
-        <link href="https://blog.bakunyo.com/2013/04/03/cakephp_charcode/">
-        </link>
-        <updated>2013-04-03T00:00:00Z</updated>
-        <content type="html"><![CDATA[CakePHPでメールを送ったら文字化けした時の対処法。]]></content>
-        <author>
-            <name>bakunyo</name>
-            <email>izuta.hiroyuki@gmail.com</email>
-            <uri>https://github.com/bakunyo</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sublime Text 2のBracketHighlighterをちょこっとカスタマイズする]]></title>
-        <id>https://blog.bakunyo.com/2013/02/24/sublime_bracket_highlighter/</id>
-        <link href="https://blog.bakunyo.com/2013/02/24/sublime_bracket_highlighter/">
-        </link>
-        <updated>2013-02-24T00:00:00Z</updated>
-        <content type="html"><![CDATA[Sublime Text 2のBracketHighlighterをちょこっとカスタマイズする]]></content>
-        <author>
-            <name>bakunyo</name>
-            <email>izuta.hiroyuki@gmail.com</email>
-            <uri>https://github.com/bakunyo</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gmailのアーカイブ機能と個人的によく使うショートカット]]></title>
-        <id>https://blog.bakunyo.com/2013/02/21/archive_gmail/</id>
-        <link href="https://blog.bakunyo.com/2013/02/21/archive_gmail/">
-        </link>
-        <updated>2013-02-21T00:00:00Z</updated>
-        <content type="html"><![CDATA[Gmailのアーカイブ機能と個人的によく使うショートカット]]></content>
-        <author>
-            <name>bakunyo</name>
-            <email>izuta.hiroyuki@gmail.com</email>
-            <uri>https://github.com/bakunyo</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[改行コードを知る]]></title>
-        <id>https://blog.bakunyo.com/2013/01/31/linefeeds/</id>
-        <link href="https://blog.bakunyo.com/2013/01/31/linefeeds/">
-        </link>
-        <updated>2013-01-31T00:00:00Z</updated>
-        <content type="html"><![CDATA[改行コードを知る]]></content>
-        <author>
-            <name>bakunyo</name>
-            <email>izuta.hiroyuki@gmail.com</email>
-            <uri>https://github.com/bakunyo</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[会社でコーヒーミーティング@KDDIウェブコミュニケーションズに参加してきました]]></title>
-        <id>https://blog.bakunyo.com/2013/01/18/coffee_meeting/</id>
-        <link href="https://blog.bakunyo.com/2013/01/18/coffee_meeting/">
-        </link>
-        <updated>2013-01-18T00:00:00Z</updated>
-        <content type="html"><![CDATA[会社でコーヒーミーティング@KDDIウェブコミュニケーションズに参加してきました]]></content>
-        <author>
-            <name>bakunyo</name>
-            <email>izuta.hiroyuki@gmail.com</email>
-            <uri>https://github.com/bakunyo</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[文字コードについての２つの概念]]></title>
-        <id>https://blog.bakunyo.com/2013/01/16/char_code/</id>
-        <link href="https://blog.bakunyo.com/2013/01/16/char_code/">
-        </link>
-        <updated>2013-01-16T00:00:00Z</updated>
-        <content type="html"><![CDATA[文字コードについての２つの概念]]></content>
-        <author>
-            <name>bakunyo</name>
-            <email>izuta.hiroyuki@gmail.com</email>
-            <uri>https://github.com/bakunyo</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Javaエンジニア研修スタート]]></title>
-        <id>https://blog.bakunyo.com/2013/01/09/learning_java/</id>
-        <link href="https://blog.bakunyo.com/2013/01/09/learning_java/">
-        </link>
-        <updated>2013-01-09T00:00:00Z</updated>
-        <content type="html"><![CDATA[Javaエンジニア研修スタート]]></content>
-        <author>
-            <name>bakunyo</name>
-            <email>izuta.hiroyuki@gmail.com</email>
-            <uri>https://github.com/bakunyo</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[後で読むサービス「Pocket」の残り件数を確認する方法]]></title>
-        <id>https://blog.bakunyo.com/2013/01/06/rest_of_pocket/</id>
-        <link href="https://blog.bakunyo.com/2013/01/06/rest_of_pocket/">
-        </link>
-        <updated>2013-01-06T00:00:00Z</updated>
-        <content type="html"><![CDATA[後で読むサービス「Pocket」の残り件数を確認する方法]]></content>
         <author>
             <name>bakunyo</name>
             <email>izuta.hiroyuki@gmail.com</email>

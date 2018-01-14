@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>BAKUNOTE</title>
+        <link>https://blog.bakunyo.com/</link>
+        <description>bakunyoの技術ノート。ruby, javascriptに関することやその他日々の記録です。</description>
+        <lastBuildDate>Sun, 14 Jan 2018 21:22:19 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>BAKUNOTE</title>
+            <url>https://blog.bakunyo.com/bakunyo.png</url>
+            <link>https://blog.bakunyo.com/</link>
+        </image>
+        <copyright>All rights reserved 2013, bakunyo</copyright>
+        <item>
+            <title><![CDATA[Amazpn VPCで踏み台経由でログインできるネットワーク環境をつくってみる]]></title>
+            <link>https://blog.bakunyo.com/2017/12/17/amazon-vpc/</link>
+            <guid>https://blog.bakunyo.com/2017/12/17/amazon-vpc/</guid>
+            <pubDate>Sun, 17 Dec 2017 04:30:00 GMT</pubDate>
+            <content:encoded><![CDATA[Amazpn VPCで踏み台経由でログインできるネットワーク環境をつくってみる]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Rails開発環境をdocker-composeで作ってみる]]></title>
+            <link>https://blog.bakunyo.com/2017/07/06/docker-compose-rails/</link>
+            <guid>https://blog.bakunyo.com/2017/07/06/docker-compose-rails/</guid>
+            <pubDate>Wed, 05 Jul 2017 15:09:00 GMT</pubDate>
+            <content:encoded><![CDATA[Rails開発環境をdocker-composeで作ってみる]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Elixir入門]]></title>
+            <link>https://blog.bakunyo.com/2017/05/27/elixir-introduction/</link>
+            <guid>https://blog.bakunyo.com/2017/05/27/elixir-introduction/</guid>
+            <pubDate>Sat, 27 May 2017 08:01:00 GMT</pubDate>
+            <content:encoded><![CDATA[Elixir入門]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[鎌倉で開発合宿してきた]]></title>
+            <link>https://blog.bakunyo.com/2017/02/14/kamakura-kaihatsu-gassyuku/</link>
+            <guid>https://blog.bakunyo.com/2017/02/14/kamakura-kaihatsu-gassyuku/</guid>
+            <pubDate>Tue, 14 Feb 2017 12:40:00 GMT</pubDate>
+            <content:encoded><![CDATA[鎌倉で開発合宿してきた]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Deviseでフレンドリーフォワーディングを実装する]]></title>
+            <link>https://blog.bakunyo.com/2016/12/30/devise-friendly-forwarding/</link>
+            <guid>https://blog.bakunyo.com/2016/12/30/devise-friendly-forwarding/</guid>
+            <pubDate>Fri, 30 Dec 2016 07:34:00 GMT</pubDate>
+            <content:encoded><![CDATA[Deviseでフレンドリーフォワーディングを実装する]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[React on Redux on Relay on Ruby on Rails]]></title>
+            <link>https://blog.bakunyo.com/2016/10/27/rorororor/</link>
+            <guid>https://blog.bakunyo.com/2016/10/27/rorororor/</guid>
+            <pubDate>Thu, 27 Oct 2016 14:30:00 GMT</pubDate>
+            <content:encoded><![CDATA[React on Redux on Relay on Ruby on Rails]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Jekyll -> Middleman-blogに移行しました]]></title>
+            <link>https://blog.bakunyo.com/2016/09/20/jekyll_to_middleman/</link>
+            <guid>https://blog.bakunyo.com/2016/09/20/jekyll_to_middleman/</guid>
+            <pubDate>Tue, 20 Sep 2016 12:15:00 GMT</pubDate>
+            <content:encoded><![CDATA[Jekyll -> Middleman-blogに移行しました]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[rspec_rake っていうGemをつくってみた]]></title>
+            <link>https://blog.bakunyo.com/2016/05/06/rake_rspec/</link>
+            <guid>https://blog.bakunyo.com/2016/05/06/rake_rspec/</guid>
+            <pubDate>Thu, 05 May 2016 15:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[rspec_rake っていうGemをつくってみた]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[vimでgitするにはvimagitがおすすめ]]></title>
+            <link>https://blog.bakunyo.com/2016/01/08/vimagit/</link>
+            <guid>https://blog.bakunyo.com/2016/01/08/vimagit/</guid>
+            <pubDate>Thu, 07 Jan 2016 15:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[vimでgitするにはvimagitがおすすめ]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[マージ済ブランチを消すコマンドをつくった]]></title>
+            <link>https://blog.bakunyo.com/2015/12/27/git-delete-merged/</link>
+            <guid>https://blog.bakunyo.com/2015/12/27/git-delete-merged/</guid>
+            <pubDate>Sun, 27 Dec 2015 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[マージ済ブランチを消すコマンドをつくった]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[ctrlp.vimを試してみる]]></title>
+            <link>https://blog.bakunyo.com/2015/11/08/ctrlp/</link>
+            <guid>https://blog.bakunyo.com/2015/11/08/ctrlp/</guid>
+            <pubDate>Sun, 08 Nov 2015 14:15:00 GMT</pubDate>
+            <content:encoded><![CDATA[ctrlp.vimを試してみる]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Global変数を管理するGem 'global']]></title>
+            <link>https://blog.bakunyo.com/2015/05/04/rubygem_global/</link>
+            <guid>https://blog.bakunyo.com/2015/05/04/rubygem_global/</guid>
+            <pubDate>Mon, 04 May 2015 07:32:00 GMT</pubDate>
+            <content:encoded><![CDATA[Global変数を管理するGem 'global']]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[定数のメソッド内定義]]></title>
+            <link>https://blog.bakunyo.com/2015/05/01/ruby-define-const-in-method/</link>
+            <guid>https://blog.bakunyo.com/2015/05/01/ruby-define-const-in-method/</guid>
+            <pubDate>Fri, 01 May 2015 08:08:00 GMT</pubDate>
+            <content:encoded><![CDATA[定数のメソッド内定義]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Windowsコマンドプロンプトでaliasを使いたい]]></title>
+            <link>https://blog.bakunyo.com/2014/02/16/windows_alias/</link>
+            <guid>https://blog.bakunyo.com/2014/02/16/windows_alias/</guid>
+            <pubDate>Sun, 16 Feb 2014 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[Windowsコマンドプロンプトでaliasを使いたい]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Sublimeでインデントを整形する]]></title>
+            <link>https://blog.bakunyo.com/2014/01/30/sublime_indent/</link>
+            <guid>https://blog.bakunyo.com/2014/01/30/sublime_indent/</guid>
+            <pubDate>Thu, 30 Jan 2014 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[Sublimeでインデントを整形する]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Ruby認定技術者のGoldに受かったので報告]]></title>
+            <link>https://blog.bakunyo.com/2013/12/18/ruby_gold/</link>
+            <guid>https://blog.bakunyo.com/2013/12/18/ruby_gold/</guid>
+            <pubDate>Wed, 18 Dec 2013 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[Ruby認定技術者のGoldに受かったので報告]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[ユーザ定義クラスの==メソッド]]></title>
+            <link>https://blog.bakunyo.com/2013/11/25/user_define_method/</link>
+            <guid>https://blog.bakunyo.com/2013/11/25/user_define_method/</guid>
+            <pubDate>Mon, 25 Nov 2013 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[ユーザ定義クラスの==メソッド]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[メソッドとブロックの戻り値]]></title>
+            <link>https://blog.bakunyo.com/2013/10/25/return_value_of_method_and_block/</link>
+            <guid>https://blog.bakunyo.com/2013/10/25/return_value_of_method_and_block/</guid>
+            <pubDate>Fri, 25 Oct 2013 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[メソッドとブロックの戻り値]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[(Ruby)floorとtruncateの違い]]></title>
+            <link>https://blog.bakunyo.com/2013/10/23/floor_and_truncate/</link>
+            <guid>https://blog.bakunyo.com/2013/10/23/floor_and_truncate/</guid>
+            <pubDate>Wed, 23 Oct 2013 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[(Ruby)floorとtruncateの違い]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Windowsでファイル名の一覧を取得する]]></title>
+            <link>https://blog.bakunyo.com/2013/09/04/windows_files/</link>
+            <guid>https://blog.bakunyo.com/2013/09/04/windows_files/</guid>
+            <pubDate>Wed, 04 Sep 2013 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[Windowsでファイル名の一覧を取得する]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[複数ファイルのuploadができる「Uploadify」を使ってみた]]></title>
+            <link>https://blog.bakunyo.com/2013/08/27/uploadify/</link>
+            <guid>https://blog.bakunyo.com/2013/08/27/uploadify/</guid>
+            <pubDate>Tue, 27 Aug 2013 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[複数ファイルのuploadができる「Uploadify」を使ってみた]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[クラスメソッドをundefする]]></title>
+            <link>https://blog.bakunyo.com/2013/08/26/undef_class_method/</link>
+            <guid>https://blog.bakunyo.com/2013/08/26/undef_class_method/</guid>
+            <pubDate>Mon, 26 Aug 2013 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[クラスメソッドをundefする]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Sublime Text 3をインストールしてみた]]></title>
+            <link>https://blog.bakunyo.com/2013/07/20/install_sublime3/</link>
+            <guid>https://blog.bakunyo.com/2013/07/20/install_sublime3/</guid>
+            <pubDate>Sat, 20 Jul 2013 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[Sublime Text 3をインストールしてみた]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Ruby認定技術者のSilverに受かったので諸々の報告]]></title>
+            <link>https://blog.bakunyo.com/2013/07/11/ruby_silver/</link>
+            <guid>https://blog.bakunyo.com/2013/07/11/ruby_silver/</guid>
+            <pubDate>Thu, 11 Jul 2013 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[Ruby認定技術者のSilverに受かったので諸々の報告]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[ミニツクの演習2を解いてみた。]]></title>
+            <link>https://blog.bakunyo.com/2013/06/27/minitsuku2/</link>
+            <guid>https://blog.bakunyo.com/2013/06/27/minitsuku2/</guid>
+            <pubDate>Thu, 27 Jun 2013 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[ミニツクの演習2を解いてみた。]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[オプションの由来シリーズ - 正規表現]]></title>
+            <link>https://blog.bakunyo.com/2013/06/25/regex_options/</link>
+            <guid>https://blog.bakunyo.com/2013/06/25/regex_options/</guid>
+            <pubDate>Tue, 25 Jun 2013 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[オプションの由来シリーズ - 正規表現]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[crontab使い方まとめ。]]></title>
+            <link>https://blog.bakunyo.com/2013/06/20/crontab/</link>
+            <guid>https://blog.bakunyo.com/2013/06/20/crontab/</guid>
+            <pubDate>Thu, 20 Jun 2013 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[crontab使い方まとめ。]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[git logで日報を書く]]></title>
+            <link>https://blog.bakunyo.com/2013/05/25/daily_report_git/</link>
+            <guid>https://blog.bakunyo.com/2013/05/25/daily_report_git/</guid>
+            <pubDate>Sat, 25 May 2013 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[git logで日報を書く]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[そろそろ整理しておきたい、Gemコマンドの使い方]]></title>
+            <link>https://blog.bakunyo.com/2013/05/23/gem_command/</link>
+            <guid>https://blog.bakunyo.com/2013/05/23/gem_command/</guid>
+            <pubDate>Thu, 23 May 2013 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[そろそろ整理しておきたい、Gemコマンドの使い方]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[1ライナーのコマンドを投稿するサイトが面白い]]></title>
+            <link>https://blog.bakunyo.com/2013/05/18/one_liners/</link>
+            <guid>https://blog.bakunyo.com/2013/05/18/one_liners/</guid>
+            <pubDate>Sat, 18 May 2013 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[1ライナーのコマンドを投稿するサイトが面白い]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
+    </channel>
+</rss>

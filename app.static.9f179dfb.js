@@ -1337,7 +1337,7 @@ var Footer = function (_React$Component) {
                 _react2.default.createElement(
                   "a",
                   {
-                    href: "https://feedly.com/i/subscription/feed/https://blog.bakunyo.com/atom",
+                    href: "https://feedly.com/i/subscription/feed/https://blog.bakunyo.com/rss",
                     target: "blank"
                   },
                   _react2.default.createElement("img", {
@@ -1410,4 +1410,4 @@ module.exports = __webpack_require__.p + "static/bakunyo.f3080bd9.png";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.e99acbce.js.map
+//# sourceMappingURL=app.static.9f179dfb.js.map
