@@ -1190,7 +1190,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var Styles = _styledComponents2.default.div.withConfig({
   displayName: "Header__Styles"
-})(["header{width:100%;background:#333333;color:#fff;border-bottom:", ";margin-bottom:1rem;text-align:center;cursor:pointer;box-shadow:0px 5px 15px -5px rgba(0,0,0,0.8);&:hover{color:", ";}a{&:visited{color:inherit;}}h1{font-size:3rem;font-weight:normal;margin-bottom:0.3rem;margin-top:0;padding-top:1.5rem;}p{margin-top:0;margin-bottom:1.5rem;}}"], _styles2.default.border, _styles2.default.color.accent);
+})(["header{width:100%;background:#333333;color:#fff;border-bottom:", ";margin-bottom:1rem;text-align:center;cursor:pointer;box-shadow:0px 5px 15px -5px rgba(0,0,0,0.8);a{&:visited{color:#ffffff;}}h1{font-size:3rem;font-weight:normal;margin-bottom:0.3rem;margin-top:0;padding-top:1.5rem;}p{margin-top:0;margin-bottom:1.5rem;}}"], _styles2.default.border);
 
 exports.default = function () {
   return _react2.default.createElement(
@@ -1410,4 +1410,4 @@ module.exports = __webpack_require__.p + "static/bakunyo.f3080bd9.png";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.1a7c8cbd.js.map
+//# sourceMappingURL=app.static.24cde7a4.js.map
