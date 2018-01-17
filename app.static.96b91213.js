@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 9);
+/******/ 	return __webpack_require__(__webpack_require__.s = 10);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -237,12 +237,95 @@ exports.default = Hatebu;
 
 /***/ }),
 /* 8 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactGa = __webpack_require__(19);
+
+var _reactGa2 = _interopRequireDefault(_reactGa);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+_reactGa2.default.initialize("UA-38559279-2");
+
+var withTracker = function withTracker(WrappedComponent) {
+  var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+
+  var trackPage = function trackPage(page) {
+    _reactGa2.default.set(_extends({
+      page: page
+    }, options));
+    _reactGa2.default.pageview(page);
+  };
+
+  var HOC = function (_React$Component) {
+    _inherits(HOC, _React$Component);
+
+    function HOC() {
+      _classCallCheck(this, HOC);
+
+      return _possibleConstructorReturn(this, (HOC.__proto__ || Object.getPrototypeOf(HOC)).apply(this, arguments));
+    }
+
+    _createClass(HOC, [{
+      key: "componentDidMount",
+      value: function componentDidMount() {
+        var page = this.props.location.pathname;
+        trackPage(page);
+      }
+    }, {
+      key: "componentWillReceiveProps",
+      value: function componentWillReceiveProps(nextProps) {
+        var currentPage = this.props.location.pathname;
+        var nextPage = nextProps.location.pathname;
+
+        if (currentPage !== nextPage) {
+          trackPage(nextPage);
+        }
+      }
+    }, {
+      key: "render",
+      value: function render() {
+        return _react2.default.createElement(WrappedComponent, this.props);
+      }
+    }]);
+
+    return HOC;
+  }(_react2.default.Component);
+
+  return HOC;
+};
+
+exports.default = withTracker;
+
+/***/ }),
+/* 9 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-icons/lib/fa/twitter");
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -256,13 +339,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(10);
+var _reactDom = __webpack_require__(11);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _reactHotLoader = __webpack_require__(11);
+var _reactHotLoader = __webpack_require__(12);
 
-var _App = __webpack_require__(12);
+var _App = __webpack_require__(13);
 
 var _App2 = _interopRequireDefault(_App);
 
@@ -298,19 +381,19 @@ if (typeof document !== 'undefined') {
 }
 
 /***/ }),
-/* 10 */
+/* 11 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom");
 
 /***/ }),
-/* 11 */
+/* 12 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-hot-loader");
 
 /***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -334,17 +417,17 @@ var _styledComponents = __webpack_require__(1);
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
-var _reactStaticRoutes = __webpack_require__(13);
+var _reactStaticRoutes = __webpack_require__(14);
 
 var _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);
 
 var _reactHelmet = __webpack_require__(5);
 
-var _Header = __webpack_require__(23);
+var _Header = __webpack_require__(25);
 
 var _Header2 = _interopRequireDefault(_Header);
 
-var _Footer = __webpack_require__(24);
+var _Footer = __webpack_require__(26);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
@@ -417,7 +500,7 @@ var App = function (_React$Component) {
 exports.default = App;
 
 /***/ }),
-/* 13 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -433,17 +516,17 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(14);
+var _reactRouterDom = __webpack_require__(15);
 
-var _PostList = __webpack_require__(15);
+var _PostList = __webpack_require__(16);
 
 var _PostList2 = _interopRequireDefault(_PostList);
 
-var _Post = __webpack_require__(18);
+var _Post = __webpack_require__(20);
 
 var _Post2 = _interopRequireDefault(_Post);
 
-var _ = __webpack_require__(22);
+var _ = __webpack_require__(24);
 
 var _2 = _interopRequireDefault(_);
 
@@ -529,13 +612,13 @@ var Routes = function (_Component) {
 exports.default = Routes;
 
 /***/ }),
-/* 14 */
+/* 15 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-router-dom");
 
 /***/ }),
-/* 15 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -571,11 +654,15 @@ var _blog = __webpack_require__(4);
 
 var _blog2 = _interopRequireDefault(_blog);
 
-var _Pagination = __webpack_require__(16);
+var _Pagination = __webpack_require__(17);
 
 var _Pagination2 = _interopRequireDefault(_Pagination);
 
 var _hatebu = __webpack_require__(7);
+
+var _withTracker = __webpack_require__(8);
+
+var _withTracker2 = _interopRequireDefault(_withTracker);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -729,10 +816,10 @@ var PostList = function (_React$Component) {
   return PostList;
 }(_react2.default.Component);
 
-exports.default = (0, _reactStatic.getRouteProps)(PostList);
+exports.default = (0, _reactStatic.getRouteProps)((0, _withTracker2.default)(PostList));
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -746,7 +833,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactPaginate = __webpack_require__(17);
+var _reactPaginate = __webpack_require__(18);
 
 var _reactPaginate2 = _interopRequireDefault(_reactPaginate);
 
@@ -791,13 +878,19 @@ exports.default = function (_ref) {
 };
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-paginate");
 
 /***/ }),
-/* 18 */
+/* 19 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-ga");
+
+/***/ }),
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -825,7 +918,7 @@ var _calendar = __webpack_require__(6);
 
 var _calendar2 = _interopRequireDefault(_calendar);
 
-var _highlight = __webpack_require__(19);
+var _highlight = __webpack_require__(21);
 
 var _highlight2 = _interopRequireDefault(_highlight);
 
@@ -833,11 +926,11 @@ var _hatebu = __webpack_require__(7);
 
 var _hatebu2 = _interopRequireDefault(_hatebu);
 
-var _twitter = __webpack_require__(20);
+var _twitter = __webpack_require__(22);
 
 var _twitter2 = _interopRequireDefault(_twitter);
 
-var _pocket = __webpack_require__(21);
+var _pocket = __webpack_require__(23);
 
 var _pocket2 = _interopRequireDefault(_pocket);
 
@@ -848,6 +941,10 @@ var _styles2 = _interopRequireDefault(_styles);
 var _blog = __webpack_require__(4);
 
 var _blog2 = _interopRequireDefault(_blog);
+
+var _withTracker = __webpack_require__(8);
+
+var _withTracker2 = _interopRequireDefault(_withTracker);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -974,16 +1071,16 @@ var Post = function (_React$Component) {
   return Post;
 }(_react2.default.Component);
 
-exports.default = (0, _reactStatic.getRouteProps)(Post);
+exports.default = (0, _reactStatic.getRouteProps)((0, _withTracker2.default)(Post));
 
 /***/ }),
-/* 19 */
+/* 21 */
 /***/ (function(module, exports) {
 
 module.exports = require("highlight.js");
 
 /***/ }),
-/* 20 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1007,7 +1104,7 @@ var _styledComponents = __webpack_require__(1);
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
-var _twitter = __webpack_require__(8);
+var _twitter = __webpack_require__(9);
 
 var _twitter2 = _interopRequireDefault(_twitter);
 
@@ -1066,7 +1163,7 @@ var Twitter = function (_React$Component) {
 exports.default = Twitter;
 
 /***/ }),
-/* 21 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1131,7 +1228,7 @@ var Pocket = function (_React$Component) {
 exports.default = Pocket;
 
 /***/ }),
-/* 22 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1162,7 +1259,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 23 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1218,7 +1315,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 24 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1240,11 +1337,11 @@ var _styledComponents = __webpack_require__(1);
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
-var _twitter = __webpack_require__(8);
+var _twitter = __webpack_require__(9);
 
 var _twitter2 = _interopRequireDefault(_twitter);
 
-var _bakunyo = __webpack_require__(25);
+var _bakunyo = __webpack_require__(27);
 
 var _bakunyo2 = _interopRequireDefault(_bakunyo);
 
@@ -1402,7 +1499,7 @@ var Footer = function (_React$Component) {
 exports.default = (0, _reactStatic.getSiteProps)(Footer);
 
 /***/ }),
-/* 25 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/bakunyo.f3080bd9.png";
@@ -1410,4 +1507,4 @@ module.exports = __webpack_require__.p + "static/bakunyo.f3080bd9.png";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.24cde7a4.js.map
+//# sourceMappingURL=app.static.96b91213.js.map
