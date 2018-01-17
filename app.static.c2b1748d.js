@@ -1502,9 +1502,9 @@ exports.default = (0, _reactStatic.getSiteProps)(Footer);
 /* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/bakunyo.f3080bd9.png";
+module.exports = __webpack_require__.p + "static/bakunyo.7b427fa6.png";
 
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.96b91213.js.map
+//# sourceMappingURL=app.static.c2b1748d.js.map
