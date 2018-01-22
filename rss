@@ -4,7 +4,7 @@
         <title>BAKUNOTE</title>
         <link>https://blog.bakunyo.com/</link>
         <description>bakunyoの技術ノート。ruby, javascriptに関することやその他日々の記録です。</description>
-        <lastBuildDate>Wed, 17 Jan 2018 23:00:30 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 22 Jan 2018 14:38:21 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,16 @@
             <link>https://blog.bakunyo.com/</link>
         </image>
         <copyright>All rights reserved 2013, bakunyo</copyright>
+        <item>
+            <title><![CDATA[サイトジェネレータをreact-staticに移行した]]></title>
+            <link>https://blog.bakunyo.com/2018/01/22/react-static/</link>
+            <guid>https://blog.bakunyo.com/2018/01/22/react-static/</guid>
+            <pubDate>Mon, 22 Jan 2018 13:08:00 GMT</pubDate>
+            <content:encoded><![CDATA[ブログ生成に利用している静的サイトジェネレータをmiddlemanからreact-staticに移行した話です。]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[Amazpn VPCで踏み台経由でログインできるネットワーク環境をつくってみる]]></title>
             <link>https://blog.bakunyo.com/2017/12/17/amazon-vpc/</link>
@@ -299,16 +309,6 @@
             <guid>https://blog.bakunyo.com/2013/05/23/gem_command/</guid>
             <pubDate>Thu, 23 May 2013 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[そろそろ整理しておきたい、Gemコマンドの使い方]]></content:encoded>
-            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
-            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[1ライナーのコマンドを投稿するサイトが面白い]]></title>
-            <link>https://blog.bakunyo.com/2013/05/18/one_liners/</link>
-            <guid>https://blog.bakunyo.com/2013/05/18/one_liners/</guid>
-            <pubDate>Sat, 18 May 2013 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[1ライナーのコマンドを投稿するサイトが面白い]]></content:encoded>
             <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
             <enclosure url="https://blog.bakunyo.com/bakunyo.png">
             </enclosure>
