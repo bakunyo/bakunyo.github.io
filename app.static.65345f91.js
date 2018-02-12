@@ -808,7 +808,7 @@ var PostList = function (_React$Component) {
             );
           })
         ),
-        parseInt(page.all) <= 1 ? "" : _react2.default.createElement(_Pagination2.default, { page: page, onPageChange: this.onClickPage })
+        parseInt(page.all) <= 1 ? "" : _react2.default.createElement(_Pagination2.default, { page: page, onPageChange: this.onClickPage, path: path })
       );
     }
   }]);
@@ -849,11 +849,17 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var Styles = _styledComponents2.default.div.withConfig({
   displayName: "Pagination__Styles"
-})(["ul{display:flex;list-style:none;justify-content:center;padding:0;margin:3rem 0 2rem 0;li{font-size:1rem;margin-left:0.4rem;cursor:pointer;a{border:1px #ccc solid;margin:0;padding:0.6rem 0.8rem;}&.active > a{background:", ";color:#fff;}}}"], _styles2.default.color.accent);
+})(["ul{display:flex;list-style:none;justify-content:center;padding:0;margin:3rem 0 2rem 0;li{font-size:1rem;margin-left:0.4rem;cursor:pointer;a{border:1px #ccc solid;margin:0;padding:0.6rem 0.8rem;&:visited{color:#000;}}&.active > a{background:", ";color:#fff;}}}"], _styles2.default.color.accent);
+
+var _hrefBuilder = function _hrefBuilder(path, page) {
+  var withoutPagePath = path.replace(/p\d+\/$/, "");
+  return page === 1 ? withoutPagePath : withoutPagePath + "p" + page + "/";
+};
 
 exports.default = function (_ref) {
   var page = _ref.page,
-      onPageChange = _ref.onPageChange;
+      onPageChange = _ref.onPageChange,
+      path = _ref.path;
   return _react2.default.createElement(
     Styles,
     null,
@@ -872,7 +878,10 @@ exports.default = function (_ref) {
       forcePage: parseInt(page.now) - 1,
       activeClassName: "active",
       onPageChange: onPageChange,
-      disableInitialCallback: true
+      disableInitialCallback: true,
+      hrefBuilder: function hrefBuilder(p) {
+        return _hrefBuilder(path, p);
+      }
     })
   );
 };
@@ -1507,4 +1516,4 @@ module.exports = __webpack_require__.p + "static/bakunyo.7b427fa6.png";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.6c57ff23.js.map
+//# sourceMappingURL=app.static.65345f91.js.map
