@@ -4,7 +4,7 @@
         <title>BAKUNOTE</title>
         <link>https://blog.bakunyo.com/</link>
         <description>bakunyoの技術ノート。ruby, javascriptに関することやその他日々の記録です。</description>
-        <lastBuildDate>Mon, 12 Feb 2018 03:49:03 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 08 Jun 2018 07:54:31 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,16 @@
             <link>https://blog.bakunyo.com/</link>
         </image>
         <copyright>All rights reserved 2013, bakunyo</copyright>
+        <item>
+            <title><![CDATA[AWS CodeDeployで完了通知を受け取る]]></title>
+            <link>https://blog.bakunyo.com/2018/06/08/aws-codedeploy-notification/</link>
+            <guid>https://blog.bakunyo.com/2018/06/08/aws-codedeploy-notification/</guid>
+            <pubDate>Fri, 08 Jun 2018 06:29:00 GMT</pubDate>
+            <content:encoded><![CDATA[AWS CodeDeployでデプロイ時に通知を届けるようにしました。]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[サイトジェネレータをreact-staticに移行した]]></title>
             <link>https://blog.bakunyo.com/2018/01/22/react-static/</link>
@@ -299,16 +309,6 @@
             <guid>https://blog.bakunyo.com/2013/05/25/daily_report_git/</guid>
             <pubDate>Sat, 25 May 2013 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[git logで日報を書く]]></content:encoded>
-            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
-            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[そろそろ整理しておきたい、Gemコマンドの使い方]]></title>
-            <link>https://blog.bakunyo.com/2013/05/23/gem_command/</link>
-            <guid>https://blog.bakunyo.com/2013/05/23/gem_command/</guid>
-            <pubDate>Thu, 23 May 2013 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[そろそろ整理しておきたい、Gemコマンドの使い方]]></content:encoded>
             <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
             <enclosure url="https://blog.bakunyo.com/bakunyo.png">
             </enclosure>
