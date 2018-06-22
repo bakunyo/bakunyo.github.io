@@ -4,7 +4,7 @@
         <title>BAKUNOTE</title>
         <link>https://blog.bakunyo.com/</link>
         <description>bakunyoの技術ノート。ruby, javascriptに関することやその他日々の記録です。</description>
-        <lastBuildDate>Fri, 08 Jun 2018 07:54:31 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 22 Jun 2018 07:07:49 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,16 @@
             <link>https://blog.bakunyo.com/</link>
         </image>
         <copyright>All rights reserved 2013, bakunyo</copyright>
+        <item>
+            <title><![CDATA[Rubyのopen-uriで常にTempfileを取得する]]></title>
+            <link>https://blog.bakunyo.com/2018/06/22/open-uri-use-tempfile/</link>
+            <guid>https://blog.bakunyo.com/2018/06/22/open-uri-use-tempfile/</guid>
+            <pubDate>Fri, 22 Jun 2018 06:57:00 GMT</pubDate>
+            <content:encoded><![CDATA[rubyのopen-uriはStringIOもしくはTempfileのどちらかが開くので、Tempfileを常に取得するためのコードを書きました。]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[AWS CodeDeployで完了通知を受け取る]]></title>
             <link>https://blog.bakunyo.com/2018/06/08/aws-codedeploy-notification/</link>
@@ -299,16 +309,6 @@
             <guid>https://blog.bakunyo.com/2013/06/20/crontab/</guid>
             <pubDate>Thu, 20 Jun 2013 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[crontab使い方まとめ。]]></content:encoded>
-            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
-            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[git logで日報を書く]]></title>
-            <link>https://blog.bakunyo.com/2013/05/25/daily_report_git/</link>
-            <guid>https://blog.bakunyo.com/2013/05/25/daily_report_git/</guid>
-            <pubDate>Sat, 25 May 2013 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[git logで日報を書く]]></content:encoded>
             <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
             <enclosure url="https://blog.bakunyo.com/bakunyo.png">
             </enclosure>
