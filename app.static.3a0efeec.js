@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 10);
+/******/ 	return __webpack_require__(__webpack_require__.s = 11);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -99,7 +99,7 @@ exports.default = {
   media: {
     notPc: "@media screen and (max-width: 800px) ",
     isPc: "@media screen and (min-width: 801px) ",
-    pcWidth: "800px"
+    pcWidth: "700px"
   },
   color: {
     accent: "#2199e8",
@@ -145,6 +145,12 @@ module.exports = require("react-icons/lib/fa/calendar");
 
 /***/ }),
 /* 7 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-icons/lib/fa/tags");
+
+/***/ }),
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -236,7 +242,7 @@ var Hatebu = function (_React$Component) {
 exports.default = Hatebu;
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -254,7 +260,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactGa = __webpack_require__(19);
+var _reactGa = __webpack_require__(20);
 
 var _reactGa2 = _interopRequireDefault(_reactGa);
 
@@ -319,13 +325,13 @@ var withTracker = function withTracker(WrappedComponent) {
 exports.default = withTracker;
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-icons/lib/fa/twitter");
 
 /***/ }),
-/* 10 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -339,13 +345,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(11);
+var _reactDom = __webpack_require__(12);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _reactHotLoader = __webpack_require__(12);
+var _reactHotLoader = __webpack_require__(13);
 
-var _App = __webpack_require__(13);
+var _App = __webpack_require__(14);
 
 var _App2 = _interopRequireDefault(_App);
 
@@ -381,19 +387,19 @@ if (typeof document !== 'undefined') {
 }
 
 /***/ }),
-/* 11 */
+/* 12 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom");
 
 /***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-hot-loader");
 
 /***/ }),
-/* 13 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -405,7 +411,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _templateObject = _taggedTemplateLiteral(["\n  body {\n    font-family: -apple-system, BlinkMacSystemFont, \"Helvetica Neue\", \"Segoe UI\",\"Noto Sans Japanese\",\"\u30D2\u30E9\u30AE\u30CE\u89D2\u30B4 ProN W3\", Meiryo, sans-serif;\n    font-weight: 400;\n    font-size: 16px;\n    margin: 0;\n    padding: 0;\n  }\n"], ["\n  body {\n    font-family: -apple-system, BlinkMacSystemFont, \"Helvetica Neue\", \"Segoe UI\",\"Noto Sans Japanese\",\"\u30D2\u30E9\u30AE\u30CE\u89D2\u30B4 ProN W3\", Meiryo, sans-serif;\n    font-weight: 400;\n    font-size: 16px;\n    margin: 0;\n    padding: 0;\n  }\n"]);
+var _templateObject = _taggedTemplateLiteral(["\n  body {\n    font-family: -apple-system, Hiragino Kaku Gothic ProN, BlinkMacSystemFont, \"Helvetica Neue\", \"Segoe UI\",\"Noto Sans Japanese\",\"\u30D2\u30E9\u30AE\u30CE\u89D2\u30B4 ProN W3\", Meiryo, sans-serif;\n    font-weight: 400;\n    font-size: 18px;\n    margin: 0;\n    padding: 0;\n    color: #222;\n  }\n"], ["\n  body {\n    font-family: -apple-system, Hiragino Kaku Gothic ProN, BlinkMacSystemFont, \"Helvetica Neue\", \"Segoe UI\",\"Noto Sans Japanese\",\"\u30D2\u30E9\u30AE\u30CE\u89D2\u30B4 ProN W3\", Meiryo, sans-serif;\n    font-weight: 400;\n    font-size: 18px;\n    margin: 0;\n    padding: 0;\n    color: #222;\n  }\n"]);
 
 var _react = __webpack_require__(0);
 
@@ -417,17 +423,17 @@ var _styledComponents = __webpack_require__(1);
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
-var _reactStaticRoutes = __webpack_require__(14);
+var _reactStaticRoutes = __webpack_require__(15);
 
 var _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);
 
 var _reactHelmet = __webpack_require__(5);
 
-var _Header = __webpack_require__(25);
+var _Header = __webpack_require__(26);
 
 var _Header2 = _interopRequireDefault(_Header);
 
-var _Footer = __webpack_require__(26);
+var _Footer = __webpack_require__(27);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
@@ -453,7 +459,7 @@ function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defi
 
 var AppStyles = _styledComponents2.default.div.withConfig({
   displayName: "App__AppStyles"
-})(["a{text-decoration:none;}", "{.content,nav{width:", ";margin:0 auto;}}.content{padding:1rem;}img{max-width:100%;}p.date{margin:0;svg{width:1.3rem;height:1.3rem;margin-right:0.5rem;}span{vertical-align:bottom;}}ul.tags{display:flex;list-style:none;padding-left:0;flex-wrap:wrap;li{font-size:0.9rem;background:", ";margin:0.2rem;color:#ffffff;padding:0.2rem 0.5rem;border-radius:0.1rem;cursor:pointer;&:first-child{margin-left:0;}&:hover{background:", ";transition:all 0.2s ease-in-out;}}}"], _styles2.default.media.isPc, _styles2.default.media.pcWidth, _styles2.default.color.accent, _styles2.default.color.accentHover);
+})(["a{text-decoration:none;}", "{.content,nav{width:", ";margin:0 auto;}}.content{padding:0 1rem;}img{max-width:100%;}.postInfo{.postMeta{margin-right:3rem;p{margin:0.5rem 0;}}}.meta{color:#555;display:flex;align-items:center;svg{margin-right:0.5rem;}ul{margin:0;}}ul.tags{display:flex;list-style:none;padding-left:0;flex-wrap:wrap;li{font-size:0.9rem;background:", ";margin:0.2rem;color:#ffffff;padding:0.2rem 0.5rem;border-radius:0.1rem;cursor:pointer;&:first-child{margin-left:0;}&:hover{background:", ";transition:all 0.2s ease-in-out;}}}"], _styles2.default.media.isPc, _styles2.default.media.pcWidth, _styles2.default.color.accent, _styles2.default.color.accentHover);
 
 var App = function (_React$Component) {
   _inherits(App, _React$Component);
@@ -500,7 +506,7 @@ var App = function (_React$Component) {
 exports.default = App;
 
 /***/ }),
-/* 14 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -516,17 +522,17 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(15);
+var _reactRouterDom = __webpack_require__(16);
 
-var _PostList = __webpack_require__(16);
+var _PostList = __webpack_require__(17);
 
 var _PostList2 = _interopRequireDefault(_PostList);
 
-var _Post = __webpack_require__(20);
+var _Post = __webpack_require__(21);
 
 var _Post2 = _interopRequireDefault(_Post);
 
-var _ = __webpack_require__(24);
+var _ = __webpack_require__(25);
 
 var _2 = _interopRequireDefault(_);
 
@@ -612,13 +618,13 @@ var Routes = function (_Component) {
 exports.default = Routes;
 
 /***/ }),
-/* 15 */
+/* 16 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-router-dom");
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -646,6 +652,10 @@ var _calendar = __webpack_require__(6);
 
 var _calendar2 = _interopRequireDefault(_calendar);
 
+var _tags = __webpack_require__(7);
+
+var _tags2 = _interopRequireDefault(_tags);
+
 var _styles = __webpack_require__(2);
 
 var _styles2 = _interopRequireDefault(_styles);
@@ -654,13 +664,13 @@ var _blog = __webpack_require__(4);
 
 var _blog2 = _interopRequireDefault(_blog);
 
-var _Pagination = __webpack_require__(17);
+var _Pagination = __webpack_require__(18);
 
 var _Pagination2 = _interopRequireDefault(_Pagination);
 
-var _hatebu = __webpack_require__(7);
+var _hatebu = __webpack_require__(8);
 
-var _withTracker = __webpack_require__(8);
+var _withTracker = __webpack_require__(9);
 
 var _withTracker2 = _interopRequireDefault(_withTracker);
 
@@ -771,38 +781,51 @@ var PostList = function (_React$Component) {
                 "article",
                 null,
                 _react2.default.createElement(
-                  "p",
-                  { className: "date" },
-                  _react2.default.createElement(_calendar2.default, null),
-                  _react2.default.createElement(
-                    "span",
-                    null,
-                    post.date
-                  ),
-                  _react2.default.createElement("img", {
-                    className: "hatebuImg",
-                    src: "https://b.hatena.ne.jp/entry/image/http://" + _blog2.default.domain + (0, _hatebu.hatebuPath)(post)
-                  })
-                ),
-                _react2.default.createElement(
                   "h2",
                   null,
                   post.title
                 ),
                 _react2.default.createElement(
-                  "ul",
-                  { className: "tags" },
-                  post.tags.map(function (tag) {
-                    return _react2.default.createElement(
-                      "li",
-                      {
-                        key: post.id + "-" + tag,
-                        "data-href": "/tags/" + tag + "/",
-                        onClick: _this2.onTagClicked
-                      },
-                      tag
-                    );
-                  })
+                  "div",
+                  { className: "postInfo" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "postMeta" },
+                    _react2.default.createElement(
+                      "div",
+                      { className: "meta" },
+                      _react2.default.createElement(_calendar2.default, null),
+                      _react2.default.createElement(
+                        "span",
+                        null,
+                        post.date
+                      ),
+                      _react2.default.createElement("img", {
+                        className: "hatebuImg",
+                        src: "https://b.hatena.ne.jp/entry/image/http://" + _blog2.default.domain + (0, _hatebu.hatebuPath)(post)
+                      })
+                    ),
+                    _react2.default.createElement(
+                      "div",
+                      { className: "meta" },
+                      _react2.default.createElement(_tags2.default, null),
+                      _react2.default.createElement(
+                        "ul",
+                        { className: "tags" },
+                        post.tags.map(function (tag) {
+                          return _react2.default.createElement(
+                            "li",
+                            {
+                              key: post.id + "-" + tag,
+                              "data-href": "/tags/" + tag + "/",
+                              onClick: _this2.onTagClicked
+                            },
+                            tag
+                          );
+                        })
+                      )
+                    )
+                  )
                 )
               )
             );
@@ -819,7 +842,7 @@ var PostList = function (_React$Component) {
 exports.default = (0, _reactStatic.getRouteProps)((0, _withTracker2.default)(PostList));
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -833,7 +856,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactPaginate = __webpack_require__(18);
+var _reactPaginate = __webpack_require__(19);
 
 var _reactPaginate2 = _interopRequireDefault(_reactPaginate);
 
@@ -887,19 +910,19 @@ exports.default = function (_ref) {
 };
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-paginate");
 
 /***/ }),
-/* 19 */
+/* 20 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-ga");
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -927,19 +950,23 @@ var _calendar = __webpack_require__(6);
 
 var _calendar2 = _interopRequireDefault(_calendar);
 
-var _highlight = __webpack_require__(21);
+var _tags = __webpack_require__(7);
+
+var _tags2 = _interopRequireDefault(_tags);
+
+var _highlight = __webpack_require__(22);
 
 var _highlight2 = _interopRequireDefault(_highlight);
 
-var _hatebu = __webpack_require__(7);
+var _hatebu = __webpack_require__(8);
 
 var _hatebu2 = _interopRequireDefault(_hatebu);
 
-var _twitter = __webpack_require__(22);
+var _twitter = __webpack_require__(23);
 
 var _twitter2 = _interopRequireDefault(_twitter);
 
-var _pocket = __webpack_require__(23);
+var _pocket = __webpack_require__(24);
 
 var _pocket2 = _interopRequireDefault(_pocket);
 
@@ -951,7 +978,7 @@ var _blog = __webpack_require__(4);
 
 var _blog2 = _interopRequireDefault(_blog);
 
-var _withTracker = __webpack_require__(8);
+var _withTracker = __webpack_require__(9);
 
 var _withTracker2 = _interopRequireDefault(_withTracker);
 
@@ -965,7 +992,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 var Styles = _styledComponents2.default.div.withConfig({
   displayName: "Post__Styles"
-})(["h1{font-size:2.5rem;}.postInfo{margin-bottom:3rem;.postMeta{margin-right:3rem;}}.socialButtons{display:flex;div,iframe{margin-right:0.5rem;}}.postContent{margin-bottom:5rem;ul.tags{margin:0.5rem 0;}h2{font-size:1.8rem;padding-bottom:0.5rem;border-bottom:1px #ccc solid;margin-top:4rem;}h3{font-size:1.6rem;margin-top:3rem;}h4{font-size:1.4rem;margin-top:2rem;}h5{font-size:1.3rem;}blockquote{font-size:1.3rem;font-style:italic;color:#aaa;border-top:1px #ccc solid;border-bottom:1px #ccc solid;width:95%;margin:2.5rem 0;}pre{margin:2rem 0;div.file{display:flex;div.text{padding:0.3rem 0.6rem;font-size:0.8rem;background:#555;border-radius:0.2rem 0.2rem 0 0;color:#ffffff;}}code{padding:1.2rem;}}p > code{background:#eaeaea;padding:0 0.4rem;border-radius:0.1rem;}table{border-collapse:collapse;th[style=\"text-align:right\"]{display:none;}td[style=\"text-align:right\"]{text-align:left !important;}width:100%;th{background:#555;color:#fff;border:1px #ccc solid;padding:1rem 0.8rem;}td{border:1px #ccc solid;padding:0.8rem;}}ul,ol{font-size:1.1rem;li{margin-bottom:0.3rem;}}hr{margin:3rem 0;}p{font-size:1.1rem;}img{margin:2rem 0;box-shadow:0px 5px 15px -5px rgba(0,0,0,0.8);}.cstmreba{margin:2rem 0;.kaerebalink-box{border:1px #ccc solid;background:#ececec;padding:1.5rem;display:flex;justify-content:center;align-items:center;.kaerebalink-info{margin-left:2rem;.kaerebalink-name > a{font-size:1.2rem;background:linear-gradient(transparent 65%,#fefe00 0%);}}img{margin:0;}}}}"]);
+})(["h1{font-size:2.5rem;}.postInfo{background:#f3f3f3;padding:1rem;margin-bottom:3rem;}.socialButtons{display:flex;div,iframe{margin-right:0.5rem;}}.postContent{margin-bottom:5rem;ul.tags{margin:0.5rem 0;}h2{font-size:1.8rem;padding-bottom:0.5rem;border-bottom:1px #ccc solid;margin-top:4rem;}h3{font-size:1.6rem;margin-top:3rem;}h4{font-size:1.4rem;margin-top:2rem;}h5{font-size:1.3rem;}blockquote{font-size:1.3rem;font-style:italic;color:#aaa;border-top:1px #ccc solid;border-bottom:1px #ccc solid;width:95%;margin:2.5rem 0;}pre{margin:2rem 0;div.file{display:flex;div.text{padding:0.3rem 0.6rem;font-size:0.8rem;background:#555;border-radius:0.2rem 0.2rem 0 0;color:#ffffff;}}code{padding:1.2rem;}}p > code{background:#eaeaea;padding:0 0.4rem;border-radius:0.1rem;}table{border-collapse:collapse;th[style=\"text-align:right\"]{display:none;}td[style=\"text-align:right\"]{text-align:left !important;}width:100%;th{background:#555;color:#fff;border:1px #ccc solid;padding:1rem 0.8rem;}td{border:1px #ccc solid;padding:0.8rem;}}ul,ol{font-size:1.1rem;li{margin-bottom:0.3rem;}}hr{margin:3rem 0;}p{font-size:1.1rem;}img{margin:2rem 0;box-shadow:0px 5px 15px -5px rgba(0,0,0,0.8);}.cstmreba{margin:2rem 0;.kaerebalink-box{border:1px #ccc solid;background:#ececec;padding:1.5rem;display:flex;justify-content:center;align-items:center;.kaerebalink-info{margin-left:2rem;.kaerebalink-name > a{font-size:1.2rem;background:linear-gradient(transparent 65%,#fefe00 0%);}}img{margin:0;}}}}"]);
 
 var Post = function (_React$Component) {
   _inherits(Post, _React$Component);
@@ -1044,8 +1071,8 @@ var Post = function (_React$Component) {
             "div",
             { className: "postMeta" },
             _react2.default.createElement(
-              "p",
-              { className: "date" },
+              "div",
+              { className: "meta" },
               _react2.default.createElement(_calendar2.default, null),
               _react2.default.createElement(
                 "span",
@@ -1054,19 +1081,24 @@ var Post = function (_React$Component) {
               )
             ),
             _react2.default.createElement(
-              "ul",
-              { className: "tags" },
-              post.tags.map(function (tag) {
-                return _react2.default.createElement(
-                  _reactStatic.Link,
-                  { key: post.id + "-" + tag, to: "/tags/" + tag + "/" },
-                  _react2.default.createElement(
-                    "li",
-                    null,
-                    tag
-                  )
-                );
-              })
+              "div",
+              { className: "meta" },
+              _react2.default.createElement(_tags2.default, null),
+              _react2.default.createElement(
+                "ul",
+                { className: "tags" },
+                post.tags.map(function (tag) {
+                  return _react2.default.createElement(
+                    _reactStatic.Link,
+                    { key: post.id + "-" + tag, to: "/tags/" + tag + "/" },
+                    _react2.default.createElement(
+                      "li",
+                      null,
+                      tag
+                    )
+                  );
+                })
+              )
             )
           )
         ),
@@ -1091,13 +1123,13 @@ var Post = function (_React$Component) {
 exports.default = (0, _reactStatic.getRouteProps)((0, _withTracker2.default)(Post));
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, exports) {
 
 module.exports = require("highlight.js");
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1121,7 +1153,7 @@ var _styledComponents = __webpack_require__(1);
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
-var _twitter = __webpack_require__(9);
+var _twitter = __webpack_require__(10);
 
 var _twitter2 = _interopRequireDefault(_twitter);
 
@@ -1180,7 +1212,7 @@ var Twitter = function (_React$Component) {
 exports.default = Twitter;
 
 /***/ }),
-/* 23 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1245,7 +1277,7 @@ var Pocket = function (_React$Component) {
 exports.default = Pocket;
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1276,7 +1308,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1304,7 +1336,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var Styles = _styledComponents2.default.div.withConfig({
   displayName: "Header__Styles"
-})(["header{width:100%;background:#333333;color:#fff;border-bottom:", ";margin-bottom:1rem;text-align:center;cursor:pointer;box-shadow:0px 5px 15px -5px rgba(0,0,0,0.8);a{&:visited{color:#ffffff;}}h1{font-size:3rem;font-weight:normal;margin-bottom:0.3rem;margin-top:0;padding-top:1.5rem;}p{margin-top:0;margin-bottom:1.5rem;}}"], _styles2.default.border);
+})(["header{width:100%;background:#333333;color:#fff;border-bottom:", ";margin-bottom:1rem;text-align:center;cursor:pointer;a{&:visited{color:#ffffff;}}h1{font-size:2.5rem;font-weight:normal;margin-bottom:0.3rem;margin-top:0;padding-top:1rem;}p{margin-top:0;margin-bottom:1rem;}}"], _styles2.default.border);
 
 exports.default = function () {
   return _react2.default.createElement(
@@ -1332,7 +1364,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1354,11 +1386,11 @@ var _styledComponents = __webpack_require__(1);
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
-var _twitter = __webpack_require__(9);
+var _twitter = __webpack_require__(10);
 
 var _twitter2 = _interopRequireDefault(_twitter);
 
-var _bakunyo = __webpack_require__(27);
+var _bakunyo = __webpack_require__(28);
 
 var _bakunyo2 = _interopRequireDefault(_bakunyo);
 
@@ -1516,7 +1548,7 @@ var Footer = function (_React$Component) {
 exports.default = (0, _reactStatic.getSiteProps)(Footer);
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/bakunyo.7b427fa6.png";
@@ -1524,4 +1556,4 @@ module.exports = __webpack_require__.p + "static/bakunyo.7b427fa6.png";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.488e1c9a.js.map
+//# sourceMappingURL=app.static.3a0efeec.js.map
