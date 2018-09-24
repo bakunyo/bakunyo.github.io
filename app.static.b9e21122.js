@@ -1701,7 +1701,14 @@ var Footer = function (_React$Component) {
                   _react2.default.createElement(
                     "span",
                     null,
-                    "\u30D5\u30EA\u30FC\u30E9\u30F3\u30B9\u306EWEB\u30A8\u30F3\u30B8\u30CB\u30A2\u3067\u3001 \u666E\u6BB5\u306F Ruby, JavaScript \u3042\u305F\u308A\u3092\u66F8\u3044\u3066\u307E\u3059\u3002\u4E80\u6238\u306B\u5728\u4F4F\u3002"
+                    "\u30D5\u30EA\u30FC\u30E9\u30F3\u30B9\u306EWEB\u30A8\u30F3\u30B8\u30CB\u30A2\u3067\u666E\u6BB5\u306F Rails / React / TypeScript \u3042\u305F\u308A\u3092\u66F8\u3044\u3066\u307E\u3059\u3002 \u304A\u4ED5\u4E8B\u306E\u8A71\u3042\u308C\u3070\u6C17\u8EFD\u306B\u9023\u7D61\u304F\u3060\u3055\u3044\u3002",
+                    _react2.default.createElement(
+                      "a",
+                      { target: "_blank", href: "https://xn--0st94o12a.jp/" },
+                      "\u6700\u65B0\u5DFB.jp"
+                    ),
+                    " ",
+                    "\u904B\u55B6\u4E2D\u3002\u4E80\u6238\u306B\u5728\u4F4F\u3002"
                   )
                 )
               ),
@@ -1816,4 +1823,4 @@ exports.default = _styledComponents2.default.div.withConfig({
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.87d72cc9.js.map
+//# sourceMappingURL=app.static.b9e21122.js.map
