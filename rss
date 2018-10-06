@@ -4,7 +4,7 @@
         <title>BAKUNOTE</title>
         <link>https://blog.bakunyo.com/</link>
         <description>bakunyoの技術ノート。ruby, javascriptに関することやその他日々の記録です。</description>
-        <lastBuildDate>Mon, 24 Sep 2018 12:05:35 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Oct 2018 07:54:06 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,16 @@
             <link>https://blog.bakunyo.com/</link>
         </image>
         <copyright>All rights reserved 2013, bakunyo</copyright>
+        <item>
+            <title><![CDATA[AMP 完全に理解したというタイトルで発表してきました]]></title>
+            <link>https://blog.bakunyo.com/2018/10/06/amp-complete/</link>
+            <guid>https://blog.bakunyo.com/2018/10/06/amp-complete/</guid>
+            <pubDate>Sat, 06 Oct 2018 07:41:00 GMT</pubDate>
+            <content:encoded><![CDATA[【第4回】JSフレームワーク(またはライブラリ)× ビアバッシュ 初心者勉強会 in秋葉原というイベントに参加し、AMPについての発表をしてきました]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[Rubyのopen-uriで常にTempfileを取得する]]></title>
             <link>https://blog.bakunyo.com/2018/06/22/open-uri-use-tempfile/</link>
@@ -299,16 +309,6 @@
             <guid>https://blog.bakunyo.com/2013/06/25/regex_options/</guid>
             <pubDate>Tue, 25 Jun 2013 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[オプションの由来シリーズ - 正規表現]]></content:encoded>
-            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
-            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[crontab使い方まとめ。]]></title>
-            <link>https://blog.bakunyo.com/2013/06/20/crontab/</link>
-            <guid>https://blog.bakunyo.com/2013/06/20/crontab/</guid>
-            <pubDate>Thu, 20 Jun 2013 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[crontab使い方まとめ。]]></content:encoded>
             <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
             <enclosure url="https://blog.bakunyo.com/bakunyo.png">
             </enclosure>
