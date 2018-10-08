@@ -236,7 +236,7 @@ var Hatebu = function (_React$Component) {
           ref: function ref(node) {
             return _this2.node = node;
           },
-          href: "http://b.hatena.ne.jp/entry/" + _blog2.default.domain + path,
+          href: "https://b.hatena.ne.jp/entry/" + _blog2.default.domain + path,
           className: "hatena-bookmark-button",
           "data-hatena-bookmark-layout": "vertical-large",
           "data-hatena-bookmark-lang": "ja",
@@ -1823,4 +1823,4 @@ exports.default = _styledComponents2.default.div.withConfig({
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.30872610.js.map
+//# sourceMappingURL=app.static.add763c0.js.map
