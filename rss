@@ -4,7 +4,7 @@
         <title>BAKUNOTE</title>
         <link>https://blog.bakunyo.com/</link>
         <description>bakunyoの技術ノート。ruby, javascriptに関することやその他日々の記録です。</description>
-        <lastBuildDate>Sat, 06 Oct 2018 07:54:06 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Oct 2018 08:56:56 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,16 @@
             <link>https://blog.bakunyo.com/</link>
         </image>
         <copyright>All rights reserved 2013, bakunyo</copyright>
+        <item>
+            <title><![CDATA[Clean Architecture を読んだ]]></title>
+            <link>https://blog.bakunyo.com/2018/10/08/clean-architecture/</link>
+            <guid>https://blog.bakunyo.com/2018/10/08/clean-architecture/</guid>
+            <pubDate>Mon, 08 Oct 2018 08:20:00 GMT</pubDate>
+            <content:encoded><![CDATA[2018年8月に発売されたClean Architecture 達人に学ぶソフトウェアの構造と設計を読んだのでその感想とメモです。]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[AMP 完全に理解したというタイトルで発表してきました]]></title>
             <link>https://blog.bakunyo.com/2018/10/06/amp-complete/</link>
@@ -299,16 +309,6 @@
             <guid>https://blog.bakunyo.com/2013/06/27/minitsuku2/</guid>
             <pubDate>Thu, 27 Jun 2013 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[ミニツクの演習2を解いてみた。]]></content:encoded>
-            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
-            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[オプションの由来シリーズ - 正規表現]]></title>
-            <link>https://blog.bakunyo.com/2013/06/25/regex_options/</link>
-            <guid>https://blog.bakunyo.com/2013/06/25/regex_options/</guid>
-            <pubDate>Tue, 25 Jun 2013 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[オプションの由来シリーズ - 正規表現]]></content:encoded>
             <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
             <enclosure url="https://blog.bakunyo.com/bakunyo.png">
             </enclosure>
