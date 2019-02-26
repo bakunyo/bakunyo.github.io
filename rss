@@ -4,7 +4,7 @@
         <title>BAKUNOTE</title>
         <link>https://blog.bakunyo.com/</link>
         <description>bakunyoの技術ノート。ruby, javascriptに関することやその他日々の記録です。</description>
-        <lastBuildDate>Thu, 11 Oct 2018 15:33:18 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Feb 2019 00:04:28 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,16 @@
             <link>https://blog.bakunyo.com/</link>
         </image>
         <copyright>All rights reserved 2013, bakunyo</copyright>
+        <item>
+            <title><![CDATA[git-pr-release を実行する GitHub Action をつくってみた]]></title>
+            <link>https://blog.bakunyo.com/2019/02/26/github-actions-git-pr-release/</link>
+            <guid>https://blog.bakunyo.com/2019/02/26/github-actions-git-pr-release/</guid>
+            <pubDate>Mon, 25 Feb 2019 23:37:00 GMT</pubDate>
+            <content:encoded><![CDATA[制限付きパブリックベータで公開中のGitHub Actionsを使って、git-pr-releaseを実行するActionをつくってみた話です]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[Clean Architecture を読んだ]]></title>
             <link>https://blog.bakunyo.com/2018/10/08/clean-architecture/</link>
@@ -299,16 +309,6 @@
             <guid>https://blog.bakunyo.com/2013/07/11/ruby_silver/</guid>
             <pubDate>Thu, 11 Jul 2013 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[Ruby認定技術者のSilverに受かったので諸々の報告]]></content:encoded>
-            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
-            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[ミニツクの演習2を解いてみた。]]></title>
-            <link>https://blog.bakunyo.com/2013/06/27/minitsuku2/</link>
-            <guid>https://blog.bakunyo.com/2013/06/27/minitsuku2/</guid>
-            <pubDate>Thu, 27 Jun 2013 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[ミニツクの演習2を解いてみた。]]></content:encoded>
             <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
             <enclosure url="https://blog.bakunyo.com/bakunyo.png">
             </enclosure>
