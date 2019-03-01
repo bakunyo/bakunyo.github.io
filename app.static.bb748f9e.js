@@ -179,6 +179,8 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
+exports.isNewerHatebu = isNewerHatebu;
+exports.isNewerHatebuEntry = isNewerHatebuEntry;
 exports.hatebuPath = hatebuPath;
 
 var _react = __webpack_require__(0);
@@ -197,8 +199,16 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+function isNewerHatebu(post) {
+  return new Date(post.date) > new Date(2016, 6);
+}
+
+function isNewerHatebuEntry(post) {
+  return new Date(post.date) > new Date(2017, 8);
+}
+
 function hatebuPath(post) {
-  return new Date(post.date) > new Date(2016, 6) ? post.path : post.path.slice(0, -1);
+  return isNewerHatebu(post) ? post.path : post.path.slice(0, -1);
 }
 
 var Hatebu = function (_React$Component) {
@@ -236,7 +246,7 @@ var Hatebu = function (_React$Component) {
           ref: function ref(node) {
             return _this2.node = node;
           },
-          href: "https://b.hatena.ne.jp/entry/" + _blog2.default.domain + path,
+          href: "http" + (isNewerHatebuEntry(post) ? "s" : "") + "://b.hatena.ne.jp/entry/" + _blog2.default.domain + path,
           className: "hatena-bookmark-button",
           "data-hatena-bookmark-layout": "vertical-large",
           "data-hatena-bookmark-lang": "ja",
@@ -1052,7 +1062,7 @@ var PostList = function (_React$Component) {
                         ),
                         _react2.default.createElement("img", {
                           className: "hatebuImg",
-                          src: "https://b.hatena.ne.jp/entry/image/http://" + _blog2.default.domain + (0, _hatebu.hatebuPath)(post)
+                          src: "https://b.hatena.ne.jp/entry/image/http" + ((0, _hatebu.isNewerHatebuEntry)(post) ? "s" : "") + "://" + _blog2.default.domain + (0, _hatebu.hatebuPath)(post)
                         })
                       ),
                       _react2.default.createElement(
@@ -1823,4 +1833,4 @@ exports.default = _styledComponents2.default.div.withConfig({
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.428b11c1.js.map
+//# sourceMappingURL=app.static.bb748f9e.js.map
