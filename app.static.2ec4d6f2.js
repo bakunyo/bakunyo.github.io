@@ -1521,49 +1521,83 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
 var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = function () {
-  return _react2.default.createElement(
-    "div",
-    { className: "content" },
-    _react2.default.createElement(
-      "div",
-      null,
-      _react2.default.createElement(
-        "h1",
-        null,
-        "\u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\u30DD\u30EA\u30B7\u30FC"
-      ),
-      _react2.default.createElement(
-        "h3",
-        null,
-        "\u30A2\u30AF\u30BB\u30B9\u89E3\u6790"
-      ),
-      _react2.default.createElement(
-        "p",
-        null,
-        "\u5F53\u30D6\u30ED\u30B0\u3067\u306F\u3001\u30A2\u30AF\u30BB\u30B9\u89E3\u6790\u30C4\u30FC\u30EB\u300CGoogle\u30A2\u30CA\u30EA\u30C6\u30A3\u30AF\u30B9\u300D\u3092\u5229\u7528\u3057\u3066\u304A\u308A\u3001\u30C7\u30FC\u30BF\u53CE\u96C6\u306E\u305F\u3081\u306BCookie\u3092\u4F7F\u7528\u3057\u3066\u304A\u308A\u307E\u3059\u3002",
-        _react2.default.createElement("br", null),
-        "\u30C7\u30FC\u30BF\u306F\u533F\u540D\u3067\u53CE\u96C6\u3055\u308C\u3066\u304A\u308A\u3001\u500B\u4EBA\u3092\u7279\u5B9A\u3059\u308B\u3082\u306E\u3067\u306F\u3042\u308A\u307E\u305B\u3093\u3002",
-        _react2.default.createElement("br", null),
-        "\u53CE\u96C6\u3055\u308C\u305F\u30C7\u30FC\u30BF\u306E\u7BA1\u7406\u306FGoogle\u306E\u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\u30DD\u30EA\u30B7\u30FC\u306B\u5247\u3063\u3066\u884C\u308F\u308C\u307E\u3059\u3002",
-        _react2.default.createElement("br", null),
-        "\u8A73\u3057\u304F\u306F",
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Privacy = function (_React$Component) {
+  _inherits(Privacy, _React$Component);
+
+  function Privacy() {
+    _classCallCheck(this, Privacy);
+
+    return _possibleConstructorReturn(this, (Privacy.__proto__ || Object.getPrototypeOf(Privacy)).apply(this, arguments));
+  }
+
+  _createClass(Privacy, [{
+    key: "componentWillMount",
+    value: function componentWillMount() {
+      if (typeof window === "undefined") {
+        global.window = {};
+      }
+
+      window.scrollTo && window.scrollTo(0, 0);
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "div",
+        { className: "content" },
         _react2.default.createElement(
-          "a",
-          { href: "https://policies.google.com/privacy?hl=ja", target: "_blank", rel: "noopener" },
-          "Google \u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\u30DD\u30EA\u30B7\u30FC"
-        ),
-        "\u3092\u3054\u78BA\u8A8D\u304F\u3060\u3055\u3044\u3002"
-      )
-    )
-  );
-};
+          "div",
+          null,
+          _react2.default.createElement(
+            "h1",
+            null,
+            "\u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\u30DD\u30EA\u30B7\u30FC"
+          ),
+          _react2.default.createElement(
+            "h3",
+            null,
+            "\u30A2\u30AF\u30BB\u30B9\u89E3\u6790"
+          ),
+          _react2.default.createElement(
+            "p",
+            null,
+            "\u5F53\u30D6\u30ED\u30B0\u3067\u306F\u3001\u30A2\u30AF\u30BB\u30B9\u89E3\u6790\u30C4\u30FC\u30EB\u300CGoogle\u30A2\u30CA\u30EA\u30C6\u30A3\u30AF\u30B9\u300D\u3092\u5229\u7528\u3057\u3066\u304A\u308A\u3001\u30C7\u30FC\u30BF\u53CE\u96C6\u306E\u305F\u3081\u306BCookie\u3092\u4F7F\u7528\u3057\u3066\u304A\u308A\u307E\u3059\u3002",
+            _react2.default.createElement("br", null),
+            "\u30C7\u30FC\u30BF\u306F\u533F\u540D\u3067\u53CE\u96C6\u3055\u308C\u3066\u304A\u308A\u3001\u500B\u4EBA\u3092\u7279\u5B9A\u3059\u308B\u3082\u306E\u3067\u306F\u3042\u308A\u307E\u305B\u3093\u3002",
+            _react2.default.createElement("br", null),
+            "\u53CE\u96C6\u3055\u308C\u305F\u30C7\u30FC\u30BF\u306E\u7BA1\u7406\u306FGoogle\u306E\u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\u30DD\u30EA\u30B7\u30FC\u306B\u5247\u3063\u3066\u884C\u308F\u308C\u307E\u3059\u3002",
+            _react2.default.createElement("br", null),
+            "\u8A73\u3057\u304F\u306F",
+            _react2.default.createElement(
+              "a",
+              { href: "https://policies.google.com/privacy?hl=ja", target: "_blank", rel: "noopener" },
+              "Google \u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\u30DD\u30EA\u30B7\u30FC"
+            ),
+            "\u3092\u3054\u78BA\u8A8D\u304F\u3060\u3055\u3044\u3002"
+          )
+        )
+      );
+    }
+  }]);
+
+  return Privacy;
+}(_react2.default.Component);
+
+exports.default = Privacy;
 
 /***/ }),
 /* 30 */
@@ -1907,4 +1941,4 @@ exports.default = _styledComponents2.default.div.withConfig({
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.7e635ba2.js.map
+//# sourceMappingURL=app.static.2ec4d6f2.js.map
