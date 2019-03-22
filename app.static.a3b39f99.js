@@ -1851,8 +1851,8 @@ var Footer = function (_React$Component) {
               "\xA0"
             ),
             _react2.default.createElement(
-              "a",
-              { href: "/privacy" },
+              _reactStatic.Link,
+              { to: "/privacy" },
               "\u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\u30DD\u30EA\u30B7\u30FC"
             )
           )
@@ -1907,4 +1907,4 @@ exports.default = _styledComponents2.default.div.withConfig({
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.3ee1bbcf.js.map
+//# sourceMappingURL=app.static.a3b39f99.js.map
