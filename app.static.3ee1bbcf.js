@@ -683,7 +683,7 @@ var _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);
 
 var _reactHelmet = __webpack_require__(5);
 
-var _Header = __webpack_require__(30);
+var _Header = __webpack_require__(31);
 
 var _Header2 = _interopRequireDefault(_Header);
 
@@ -695,11 +695,11 @@ var _RightBar = __webpack_require__(14);
 
 var _RightBar2 = _interopRequireDefault(_RightBar);
 
-var _Footer = __webpack_require__(31);
+var _Footer = __webpack_require__(32);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
-var _styles = __webpack_require__(33);
+var _styles = __webpack_require__(34);
 
 var _styles2 = _interopRequireDefault(_styles);
 
@@ -782,7 +782,11 @@ var _Post = __webpack_require__(25);
 
 var _Post2 = _interopRequireDefault(_Post);
 
-var _ = __webpack_require__(29);
+var _Privacy = __webpack_require__(29);
+
+var _Privacy2 = _interopRequireDefault(_Privacy);
+
+var _ = __webpack_require__(30);
 
 var _2 = _interopRequireDefault(_);
 
@@ -801,10 +805,11 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var templateMap = {
   t_0: _PostList2.default,
   t_1: _Post2.default,
-  t_2: _2.default
+  t_2: _Privacy2.default,
+  t_3: _2.default
 
   // Template Tree
-};var templateTree = { c: { "404": { t: "t_2" }, "2013": { c: { "10": { c: { "23": { c: { "floor_and_truncate": { t: "t_1" } } }, "25": { c: { "return_value_of_method_and_block": { t: "t_1" } } } } }, "11": { c: { "25": { c: { "user_define_method": { t: "t_1" } } } } }, "12": { c: { "18": { c: { "ruby_gold": { t: "t_1" } } } } }, "01": { c: { "16": { c: { "char_code": { t: "t_1" } } }, "18": { c: { "coffee_meeting": { t: "t_1" } } }, "31": { c: { "linefeeds": { t: "t_1" } } }, "06": { c: { "rest_of_pocket": { t: "t_1" } } }, "09": { c: { "learning_java": { t: "t_1" } } } } }, "02": { c: { "21": { c: { "archive_gmail": { t: "t_1" } } }, "24": { c: { "sublime_bracket_highlighter": { t: "t_1" } } } } }, "04": { c: { "15": { c: { "order_of_select_sql": { t: "t_1" } } }, "20": { c: { "css_in_rails": { t: "t_1" } } }, "24": { c: { "action_mailer": { t: "t_1" } } }, "25": { c: { "source_of_image_tag": { t: "t_1" } } }, "03": { c: { "cakephp_charcode": { t: "t_1" } } } } }, "05": { c: { "16": { c: { "css_position": { t: "t_1" } } }, "18": { c: { "one_liners": { t: "t_1" } } }, "23": { c: { "gem_command": { t: "t_1" } } }, "25": { c: { "daily_report_git": { t: "t_1" } } } } }, "06": { c: { "20": { c: { "crontab": { t: "t_1" } } }, "25": { c: { "regex_options": { t: "t_1" } } }, "27": { c: { "minitsuku2": { t: "t_1" } } } } }, "07": { c: { "11": { c: { "ruby_silver": { t: "t_1" } } }, "20": { c: { "install_sublime3": { t: "t_1" } } } } }, "08": { c: { "26": { c: { "undef_class_method": { t: "t_1" } } }, "27": { c: { "uploadify": { t: "t_1" } } } } }, "09": { c: { "04": { c: { "windows_files": { t: "t_1" } } } } } } }, "2014": { c: { "01": { c: { "30": { c: { "sublime_indent": { t: "t_1" } } } } }, "02": { c: { "16": { c: { "windows_alias": { t: "t_1" } } } } } } }, "2015": { c: { "11": { c: { "08": { c: { "ctrlp": { t: "t_1" } } } } }, "12": { c: { "27": { c: { "git-delete-merged": { t: "t_1" } } } } }, "05": { c: { "01": { c: { "ruby-define-const-in-method": { t: "t_1" } } }, "04": { c: { "rubygem_global": { t: "t_1" } } } } } } }, "2016": { c: { "10": { c: { "27": { c: { "rorororor": { t: "t_1" } } } } }, "12": { c: { "30": { c: { "devise-friendly-forwarding": { t: "t_1" } } } } }, "01": { c: { "08": { c: { "vimagit": { t: "t_1" } } } } }, "05": { c: { "06": { c: { "rake_rspec": { t: "t_1" } } } } }, "09": { c: { "20": { c: { "jekyll_to_middleman": { t: "t_1" } } } } } } }, "2017": { c: { "12": { c: { "17": { c: { "amazon-vpc": { t: "t_1" } } } } }, "02": { c: { "14": { c: { "kamakura-kaihatsu-gassyuku": { t: "t_1" } } } } }, "05": { c: { "27": { c: { "elixir-introduction": { t: "t_1" } } } } }, "07": { c: { "06": { c: { "docker-compose-rails": { t: "t_1" } } } } } } }, "2018": { c: { "10": { c: { "06": { c: { "amp-complete": { t: "t_1" } } }, "08": { c: { "clean-architecture": { t: "t_1" } } } } }, "01": { c: { "22": { c: { "react-static": { t: "t_1" } } } } }, "06": { c: { "22": { c: { "open-uri-use-tempfile": { t: "t_1" } } }, "08": { c: { "aws-codedeploy-notification": { t: "t_1" } } } } } } }, "2019": { c: { "02": { c: { "26": { c: { "github-actions-git-pr-release": { t: "t_1" } } } } } } }, "/": { t: "t_0" }, "p2": { t: "t_0" }, "p3": { t: "t_0" }, "p4": { t: "t_0" }, "p5": { t: "t_0" }, "tags": { c: { "amp": { t: "t_0" }, "architecture": { t: "t_0" }, "aws": { t: "t_0" }, "blog": { t: "t_0" }, "css": { t: "t_0" }, "deeplearning": { t: "t_0" }, "devise": { t: "t_0" }, "docker": { t: "t_0" }, "elixir": { t: "t_0" }, "encoding": { t: "t_0" }, "erlang": { t: "t_0" }, "git": { t: "t_0" }, "github": { t: "t_0" }, "java": { t: "t_0" }, "javascript": { t: "t_0" }, "jekyll": { t: "t_0" }, "jquery": { t: "t_0" }, "linux": { t: "t_0" }, "lt": { t: "t_0" }, "matome": { t: "t_0" }, "middleman": { t: "t_0" }, "php": { t: "t_0" }, "python": { t: "t_0" }, "rails": { t: "t_0" }, "rake": { t: "t_0" }, "react-static": { t: "t_0" }, "react": { t: "t_0" }, "reading": { t: "t_0" }, "redux": { t: "t_0" }, "regex": { t: "t_0" }, "relay": { t: "t_0" }, "rspec": { t: "t_0" }, "ruby": { t: "t_0", c: { "p2": { t: "t_0" } } }, "security": { t: "t_0" }, "service": { t: "t_0" }, "sql": { t: "t_0" }, "sublime_text": { t: "t_0" }, "tensorflow": { t: "t_0" }, "troll": { t: "t_0" }, "vim": { t: "t_0" }, "vpc": { t: "t_0" }, "windows": { t: "t_0" } } } }
+};var templateTree = { c: { "404": { t: "t_3" }, "2013": { c: { "10": { c: { "23": { c: { "floor_and_truncate": { t: "t_1" } } }, "25": { c: { "return_value_of_method_and_block": { t: "t_1" } } } } }, "11": { c: { "25": { c: { "user_define_method": { t: "t_1" } } } } }, "12": { c: { "18": { c: { "ruby_gold": { t: "t_1" } } } } }, "01": { c: { "16": { c: { "char_code": { t: "t_1" } } }, "18": { c: { "coffee_meeting": { t: "t_1" } } }, "31": { c: { "linefeeds": { t: "t_1" } } }, "06": { c: { "rest_of_pocket": { t: "t_1" } } }, "09": { c: { "learning_java": { t: "t_1" } } } } }, "02": { c: { "21": { c: { "archive_gmail": { t: "t_1" } } }, "24": { c: { "sublime_bracket_highlighter": { t: "t_1" } } } } }, "04": { c: { "15": { c: { "order_of_select_sql": { t: "t_1" } } }, "20": { c: { "css_in_rails": { t: "t_1" } } }, "24": { c: { "action_mailer": { t: "t_1" } } }, "25": { c: { "source_of_image_tag": { t: "t_1" } } }, "03": { c: { "cakephp_charcode": { t: "t_1" } } } } }, "05": { c: { "16": { c: { "css_position": { t: "t_1" } } }, "18": { c: { "one_liners": { t: "t_1" } } }, "23": { c: { "gem_command": { t: "t_1" } } }, "25": { c: { "daily_report_git": { t: "t_1" } } } } }, "06": { c: { "20": { c: { "crontab": { t: "t_1" } } }, "25": { c: { "regex_options": { t: "t_1" } } }, "27": { c: { "minitsuku2": { t: "t_1" } } } } }, "07": { c: { "11": { c: { "ruby_silver": { t: "t_1" } } }, "20": { c: { "install_sublime3": { t: "t_1" } } } } }, "08": { c: { "26": { c: { "undef_class_method": { t: "t_1" } } }, "27": { c: { "uploadify": { t: "t_1" } } } } }, "09": { c: { "04": { c: { "windows_files": { t: "t_1" } } } } } } }, "2014": { c: { "01": { c: { "30": { c: { "sublime_indent": { t: "t_1" } } } } }, "02": { c: { "16": { c: { "windows_alias": { t: "t_1" } } } } } } }, "2015": { c: { "11": { c: { "08": { c: { "ctrlp": { t: "t_1" } } } } }, "12": { c: { "27": { c: { "git-delete-merged": { t: "t_1" } } } } }, "05": { c: { "01": { c: { "ruby-define-const-in-method": { t: "t_1" } } }, "04": { c: { "rubygem_global": { t: "t_1" } } } } } } }, "2016": { c: { "10": { c: { "27": { c: { "rorororor": { t: "t_1" } } } } }, "12": { c: { "30": { c: { "devise-friendly-forwarding": { t: "t_1" } } } } }, "01": { c: { "08": { c: { "vimagit": { t: "t_1" } } } } }, "05": { c: { "06": { c: { "rake_rspec": { t: "t_1" } } } } }, "09": { c: { "20": { c: { "jekyll_to_middleman": { t: "t_1" } } } } } } }, "2017": { c: { "12": { c: { "17": { c: { "amazon-vpc": { t: "t_1" } } } } }, "02": { c: { "14": { c: { "kamakura-kaihatsu-gassyuku": { t: "t_1" } } } } }, "05": { c: { "27": { c: { "elixir-introduction": { t: "t_1" } } } } }, "07": { c: { "06": { c: { "docker-compose-rails": { t: "t_1" } } } } } } }, "2018": { c: { "10": { c: { "06": { c: { "amp-complete": { t: "t_1" } } }, "08": { c: { "clean-architecture": { t: "t_1" } } } } }, "01": { c: { "22": { c: { "react-static": { t: "t_1" } } } } }, "06": { c: { "22": { c: { "open-uri-use-tempfile": { t: "t_1" } } }, "08": { c: { "aws-codedeploy-notification": { t: "t_1" } } } } } } }, "2019": { c: { "02": { c: { "26": { c: { "github-actions-git-pr-release": { t: "t_1" } } } } } } }, "/": { t: "t_0" }, "p2": { t: "t_0" }, "p3": { t: "t_0" }, "p4": { t: "t_0" }, "p5": { t: "t_0" }, "tags": { c: { "amp": { t: "t_0" }, "architecture": { t: "t_0" }, "aws": { t: "t_0" }, "blog": { t: "t_0" }, "css": { t: "t_0" }, "deeplearning": { t: "t_0" }, "devise": { t: "t_0" }, "docker": { t: "t_0" }, "elixir": { t: "t_0" }, "encoding": { t: "t_0" }, "erlang": { t: "t_0" }, "git": { t: "t_0" }, "github": { t: "t_0" }, "java": { t: "t_0" }, "javascript": { t: "t_0" }, "jekyll": { t: "t_0" }, "jquery": { t: "t_0" }, "linux": { t: "t_0" }, "lt": { t: "t_0" }, "matome": { t: "t_0" }, "middleman": { t: "t_0" }, "php": { t: "t_0" }, "python": { t: "t_0" }, "rails": { t: "t_0" }, "rake": { t: "t_0" }, "react-static": { t: "t_0" }, "react": { t: "t_0" }, "reading": { t: "t_0" }, "redux": { t: "t_0" }, "regex": { t: "t_0" }, "relay": { t: "t_0" }, "rspec": { t: "t_0" }, "ruby": { t: "t_0", c: { "p2": { t: "t_0" } } }, "security": { t: "t_0" }, "service": { t: "t_0" }, "sql": { t: "t_0" }, "sublime_text": { t: "t_0" }, "tensorflow": { t: "t_0" }, "troll": { t: "t_0" }, "vim": { t: "t_0" }, "vpc": { t: "t_0" }, "windows": { t: "t_0" } } }, "privacy": { t: "t_2" } }
 
   // Get template for given path
 };var getComponentForPath = function getComponentForPath(path) {
@@ -1155,12 +1160,8 @@ exports.default = function (_ref) {
       previousLabel: "<",
       nextLabel: ">",
       pageRangeDisplayed: 2,
-      marginPagesDisplayed: 1,
-      breakLabel: _react2.default.createElement(
-        "a",
-        { href: "" },
-        "..."
-      ),
+      marginPagesDisplayed: 0,
+      breakLabel: null,
       pageCount: parseInt(page.all),
       initialPage: parseInt(page.now) - 1,
       forcePage: parseInt(page.now) - 1,
@@ -1284,6 +1285,15 @@ var Post = function (_React$Component) {
         script.dataset.ratio = "1.33333333333333";
         tag.appendChild(script);
       });
+
+      // tweet 埋め込みの blockquote 部分だけ md に書き込めば発動する
+      if (document.getElementsByClassName("twitter-tweet").length > 0) {
+        var script = document.createElement("script");
+        script.src = "//platform.twitter.com/widgets.js";
+        script.async = true;
+        script.charset = "utf-8";
+        document.body.appendChild(script);
+      }
 
       // target blankにする
       var links = document.links;
@@ -1428,7 +1438,7 @@ function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defi
 
 var Styles = _styledComponents2.default.main.withConfig({
   displayName: "styles__Styles"
-})(["h1{", ";", ";}}.postInfo{background:#f3f3f3;padding:1rem;", " ", "}.socialButtons{display:flex;", ";div,iframe{margin-right:0.5rem;}}.postContent{", " ", " margin-bottom:5rem;ul.tags{margin:0.5rem 0;}h2{padding-bottom:0.5rem;border-bottom:1px #ccc solid;}blockquote{font-size:1.3rem;font-style:italic;color:#aaa;border-top:1px #ccc solid;border-bottom:1px #ccc solid;width:95%;margin:2.5rem 0;}pre{margin:2rem 0;", " div.file{display:flex;div.text{padding:0.3rem 0.6rem;font-size:0.8rem;background:#555;border-radius:0.2rem 0.2rem 0 0;color:#ffffff;}}code{padding:1.2rem;}}p > code{background:#eaeaea;padding:0 0.4rem;border-radius:0.1rem;}table{border-collapse:collapse;", " th,td{overflow:auto;}th[style=\"text-align:right\"]{display:none;}td[style=\"text-align:right\"]{text-align:left !important;}th{background:#555;color:#fff;border:1px #ccc solid;padding:1rem 0.8rem;}td{border:1px #ccc solid;padding:0.8rem;}}ul,ol{font-size:1.1rem;li{margin-bottom:0.3rem;}}hr{margin:3rem 0;}p{font-size:1.1rem;}img{margin:2rem 0;box-shadow:0px 5px 15px -5px rgba(0,0,0,0.8);}a{word-break:break-all;}.cstmreba{margin:2rem 0;.kaerebalink-box{border:1px #ccc solid;background:#ececec;padding:1.5rem;display:flex;justify-content:center;align-items:center;.kaerebalink-info{margin-left:2rem;.kaerebalink-name > a{font-size:1.2rem;}}img{margin:0;}}}}"], _styles.media.pc(_templateObject), [_styles.media.tab, _styles.media.sp].map(function (m) {
+})(["h1{", ";", ";}}.postInfo{background:#f3f3f3;padding:1rem;", " ", "}.socialButtons{display:flex;", ";div,iframe{margin-right:0.5rem;}}.postContent{", " ", " margin-bottom:5rem;ul.tags{margin:0.5rem 0;}h2{padding-bottom:0.5rem;border-bottom:1px #ccc solid;}blockquote{font-size:1.3rem;font-style:italic;color:#aaa;border-top:1px #ccc solid;border-bottom:1px #ccc solid;width:95%;margin:2.5rem 0;}pre{margin:2rem 0;", " div.file{display:flex;div.text{padding:0.3rem 0.6rem;font-size:0.8rem;background:#555;border-radius:0.2rem 0.2rem 0 0;color:#ffffff;}}code{padding:1.2rem;}}p > code{background:#eaeaea;padding:0 0.4rem;border-radius:0.1rem;}table{border-collapse:collapse;", " th,td{overflow:auto;}th[style=\"text-align:right\"]{display:none;}td[style=\"text-align:right\"]{text-align:left !important;}th{background:#555;color:#fff;border:1px #ccc solid;padding:1rem 0.8rem;}td{border:1px #ccc solid;padding:0.8rem;}}ul,ol{font-size:1.1rem;li{margin-bottom:0.3rem;}}hr{margin:3rem 0;}p{font-size:1.1rem;}img{margin:2rem 0;box-shadow:0px 5px 15px -5px rgba(0,0,0,0.8);}a{word-break:break-all;}.cstmreba{margin:2rem 0;.kaerebalink-box{border:1px #ccc solid;background:#ececec;padding:1.5rem;display:flex;justify-content:center;align-items:center;.kaerebalink-info{margin-left:2rem;.kaerebalink-name > a{font-size:1.2rem;}}img{margin:0;}}}twitter-widget{width:95vw !important;}}"], _styles.media.pc(_templateObject), [_styles.media.tab, _styles.media.sp].map(function (m) {
   return "\n      font-size: 1.5rem;\n    ";
 }), _styles.media.pc(_templateObject2), [_styles.media.tab, _styles.media.sp].map(function (m) {
   return m(_templateObject3);
@@ -1520,7 +1530,62 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = function () {
   return _react2.default.createElement(
     "div",
-    null,
+    { className: "content" },
+    _react2.default.createElement(
+      "div",
+      null,
+      _react2.default.createElement(
+        "h1",
+        null,
+        "\u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\u30DD\u30EA\u30B7\u30FC"
+      ),
+      _react2.default.createElement(
+        "h3",
+        null,
+        "\u30A2\u30AF\u30BB\u30B9\u89E3\u6790"
+      ),
+      _react2.default.createElement(
+        "p",
+        null,
+        "\u5F53\u30D6\u30ED\u30B0\u3067\u306F\u3001\u30A2\u30AF\u30BB\u30B9\u89E3\u6790\u30C4\u30FC\u30EB\u300CGoogle\u30A2\u30CA\u30EA\u30C6\u30A3\u30AF\u30B9\u300D\u3092\u5229\u7528\u3057\u3066\u304A\u308A\u3001\u30C7\u30FC\u30BF\u53CE\u96C6\u306E\u305F\u3081\u306BCookie\u3092\u4F7F\u7528\u3057\u3066\u304A\u308A\u307E\u3059\u3002",
+        _react2.default.createElement("br", null),
+        "\u30C7\u30FC\u30BF\u306F\u533F\u540D\u3067\u53CE\u96C6\u3055\u308C\u3066\u304A\u308A\u3001\u500B\u4EBA\u3092\u7279\u5B9A\u3059\u308B\u3082\u306E\u3067\u306F\u3042\u308A\u307E\u305B\u3093\u3002",
+        _react2.default.createElement("br", null),
+        "\u53CE\u96C6\u3055\u308C\u305F\u30C7\u30FC\u30BF\u306E\u7BA1\u7406\u306FGoogle\u306E\u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\u30DD\u30EA\u30B7\u30FC\u306B\u5247\u3063\u3066\u884C\u308F\u308C\u307E\u3059\u3002",
+        _react2.default.createElement("br", null),
+        "\u8A73\u3057\u304F\u306F",
+        _react2.default.createElement(
+          "a",
+          { href: "https://policies.google.com/privacy?hl=ja", target: "_blank", rel: "noopener" },
+          "Google \u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\u30DD\u30EA\u30B7\u30FC"
+        ),
+        "\u3092\u3054\u78BA\u8A8D\u304F\u3060\u3055\u3044\u3002"
+      )
+    )
+  );
+};
+
+/***/ }),
+/* 30 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function () {
+  return _react2.default.createElement(
+    "div",
+    { className: "content" },
     _react2.default.createElement(
       "h1",
       null,
@@ -1530,7 +1595,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1598,7 +1663,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1626,7 +1691,7 @@ var _twitter = __webpack_require__(11);
 
 var _twitter2 = _interopRequireDefault(_twitter);
 
-var _bakunyo = __webpack_require__(32);
+var _bakunyo = __webpack_require__(33);
 
 var _bakunyo2 = _interopRequireDefault(_bakunyo);
 
@@ -1644,7 +1709,7 @@ function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defi
 
 var Styles = _styledComponents2.default.div.withConfig({
   displayName: "Footer__Styles"
-})(["footer{margin-top:1rem;padding:1rem;background:#eee;text-align:center;nav{margin:0 auto;display:flex;justify-content:space-between;margin-bottom:2rem;section{text-align:left;margin:0 2rem 1rem 0;flex:1;&.profile{div.self{display:flex;margin-bottom:1rem;svg{height:1.5rem;width:1.5rem;}img{width:6rem;height:6rem;border-radius:3rem;}p{margin:0 0 0 1rem;}}}&.links{ul.tags{margin:0.6rem 0;li{margin-left:0.2rem;}}}}", ";}}"], [_styles.media.tab, _styles.media.sp].map(function (m) {
+})(["footer{margin-top:1rem;padding:1rem;background:#eee;text-align:center;nav{margin:0 auto;display:flex;justify-content:space-between;margin-bottom:2rem;section{text-align:left;margin:0 2rem 1rem 0;flex:1;&.profile{div.self{display:flex;margin-bottom:1rem;svg{height:1.5rem;width:1.5rem;}img{width:6rem;height:6rem;border-radius:3rem;}p{margin:0 0 0 1rem;}}}&.links{ul.tags{margin:0.6rem 0;li{margin-left:0.2rem;}}}}", ";}.footerSmalls{span,a{margin:0 0.2rem;}}}"], [_styles.media.tab, _styles.media.sp].map(function (m) {
   return m(_templateObject);
 }));
 
@@ -1772,14 +1837,23 @@ var Footer = function (_React$Component) {
           ),
           _react2.default.createElement(
             "small",
-            null,
-            "\xA9 2013 - ",
-            new Date().getFullYear(),
-            "\xA0",
+            { className: "footerSmalls" },
             _react2.default.createElement(
               "a",
               { href: "https://twitter.com/bakunyo" },
               "@bakunyo"
+            ),
+            _react2.default.createElement(
+              "span",
+              null,
+              "\xA9 2013 - ",
+              new Date().getFullYear(),
+              "\xA0"
+            ),
+            _react2.default.createElement(
+              "a",
+              { href: "/privacy" },
+              "\u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\u30DD\u30EA\u30B7\u30FC"
             )
           )
         )
@@ -1793,13 +1867,13 @@ var Footer = function (_React$Component) {
 exports.default = (0, _reactStatic.getSiteProps)(Footer);
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/bakunyo.7b427fa6.png";
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1833,4 +1907,4 @@ exports.default = _styledComponents2.default.div.withConfig({
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.bb748f9e.js.map
+//# sourceMappingURL=app.static.3ee1bbcf.js.map
