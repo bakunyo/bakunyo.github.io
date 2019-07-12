@@ -4,7 +4,7 @@
         <title>BAKUNOTE</title>
         <link>https://blog.bakunyo.com/</link>
         <description>bakunyoの技術ノート。ruby, javascriptに関することやその他日々の記録です。</description>
-        <lastBuildDate>Fri, 22 Mar 2019 17:06:41 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 Jul 2019 06:23:23 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,16 @@
             <link>https://blog.bakunyo.com/</link>
         </image>
         <copyright>All rights reserved 2013, bakunyo</copyright>
+        <item>
+            <title><![CDATA[go でモックを使うテストを書く]]></title>
+            <link>https://blog.bakunyo.com/2019/07/12/gomock-tutorial/</link>
+            <guid>https://blog.bakunyo.com/2019/07/12/gomock-tutorial/</guid>
+            <pubDate>Fri, 12 Jul 2019 06:13:00 GMT</pubDate>
+            <content:encoded><![CDATA[gomock の基本的な使い方についてのメモ.]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[git-pr-release を実行する GitHub Action をつくってみた]]></title>
             <link>https://blog.bakunyo.com/2019/02/26/github-actions-git-pr-release/</link>
@@ -299,16 +309,6 @@
             <guid>https://blog.bakunyo.com/2013/07/20/install_sublime3/</guid>
             <pubDate>Sat, 20 Jul 2013 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[Sublime Text 3をインストールしてみた]]></content:encoded>
-            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
-            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[Ruby認定技術者のSilverに受かったので諸々の報告]]></title>
-            <link>https://blog.bakunyo.com/2013/07/11/ruby_silver/</link>
-            <guid>https://blog.bakunyo.com/2013/07/11/ruby_silver/</guid>
-            <pubDate>Thu, 11 Jul 2013 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[Ruby認定技術者のSilverに受かったので諸々の報告]]></content:encoded>
             <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
             <enclosure url="https://blog.bakunyo.com/bakunyo.png">
             </enclosure>
