@@ -239,6 +239,7 @@ var Hatebu = function (_React$Component) {
       var post = this.props.post;
 
       var path = hatebuPath(post);
+      var protocol = "http" + (isNewerHatebuEntry(post) ? "s" : "");
 
       return _react2.default.createElement(
         "a",
@@ -246,7 +247,7 @@ var Hatebu = function (_React$Component) {
           ref: function ref(node) {
             return _this2.node = node;
           },
-          href: "http" + (isNewerHatebuEntry(post) ? "s" : "") + "://b.hatena.ne.jp/entry/" + _blog2.default.domain + path,
+          href: protocol + "b.hatena.ne.jp/entry/" + protocol + _blog2.default.domain + path,
           className: "hatena-bookmark-button",
           "data-hatena-bookmark-layout": "vertical-large",
           "data-hatena-bookmark-lang": "ja",
@@ -1941,4 +1942,4 @@ exports.default = _styledComponents2.default.div.withConfig({
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.579a401e.js.map
+//# sourceMappingURL=app.static.438b97d7.js.map
