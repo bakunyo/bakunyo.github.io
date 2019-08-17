@@ -1666,7 +1666,7 @@ function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defi
 
 var Styles = _styledComponents2.default.div.withConfig({
   displayName: "Header__Styles"
-})(["header{width:100%;background:#333333;color:#fff;border-bottom:", ";", " text-align:center;cursor:pointer;a{&:visited{color:#ffffff;}}h1{font-weight:normal;margin-bottom:0.3rem;margin-top:0;", ";", ";}p{margin-top:0;", ";", ";}}"], _styles2.default.border, _styles.media.pc(_templateObject), _styles.media.pc(_templateObject2), [_styles.media.tab, _styles.media.sp].map(function (m) {
+})(["header{width:100%;background:#333333;color:#fff;border-bottom:", ";", " text-align:center;cursor:pointer;a{color:#ffffff;}h1{font-weight:normal;margin-bottom:0.3rem;margin-top:0;", ";", ";}p{margin-top:0;", ";", ";}}"], _styles2.default.border, _styles.media.pc(_templateObject), _styles.media.pc(_templateObject2), [_styles.media.tab, _styles.media.sp].map(function (m) {
   return m(_templateObject3);
 }), _styles.media.pc(_templateObject4), [_styles.media.tab, _styles.media.sp].map(function (m) {
   return m(_templateObject5);
@@ -1942,4 +1942,4 @@ exports.default = _styledComponents2.default.div.withConfig({
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.438b97d7.js.map
+//# sourceMappingURL=app.static.6d0c74fc.js.map
