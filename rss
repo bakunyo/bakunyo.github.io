@@ -4,7 +4,7 @@
         <title>BAKUNOTE</title>
         <link>https://blog.bakunyo.com/</link>
         <description>bakunyoの技術ノート。ruby, javascriptに関することやその他日々の記録です。</description>
-        <lastBuildDate>Sat, 17 Aug 2019 02:09:51 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 Aug 2019 00:55:19 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,16 @@
             <link>https://blog.bakunyo.com/</link>
         </image>
         <copyright>All rights reserved 2013, bakunyo</copyright>
+        <item>
+            <title><![CDATA[GitHub Actions 近況(2019.08.18)]]></title>
+            <link>https://blog.bakunyo.com/2019/08/22/github-actions-ci-cd-update/</link>
+            <guid>https://blog.bakunyo.com/2019/08/22/github-actions-ci-cd-update/</guid>
+            <pubDate>Wed, 21 Aug 2019 23:36:00 GMT</pubDate>
+            <content:encoded><![CDATA[2019年8月のShinjuku.LTでGitHub Actionsの近況について発表してきました]]></content:encoded>
+            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
+            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[go でモックを使うテストを書く]]></title>
             <link>https://blog.bakunyo.com/2019/07/12/gomock-tutorial/</link>
@@ -299,16 +309,6 @@
             <guid>https://blog.bakunyo.com/2013/08/26/undef_class_method/</guid>
             <pubDate>Mon, 26 Aug 2013 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[クラスメソッドをundefする]]></content:encoded>
-            <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
-            <enclosure url="https://blog.bakunyo.com/bakunyo.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[Sublime Text 3をインストールしてみた]]></title>
-            <link>https://blog.bakunyo.com/2013/07/20/install_sublime3/</link>
-            <guid>https://blog.bakunyo.com/2013/07/20/install_sublime3/</guid>
-            <pubDate>Sat, 20 Jul 2013 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[Sublime Text 3をインストールしてみた]]></content:encoded>
             <author>izuta.hiroyuki@gmail.com (bakunyo)</author>
             <enclosure url="https://blog.bakunyo.com/bakunyo.png">
             </enclosure>
